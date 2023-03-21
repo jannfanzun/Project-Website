@@ -36,7 +36,7 @@
     color: #fff;
     padding: 24px 10px 24px 10px;
     text-decoration: unset;
-    margin: 0 auto 0 44%;
+
   }
   
   .nav > .nav-btn {
@@ -44,9 +44,11 @@
   }
   
   .nav > .nav-links {
-    display: inline;
+    display: flex;
     float: right;
     font-size: 18px;
+    padding: auto;
+    justify-content: flex-end;
   }
   
   .nav > .nav-links > a {
@@ -58,7 +60,9 @@
   }
   
   .nav > .nav-links > a:hover {
-    background-color: #006118;
+    background-color: #ffffff;
+    font-weight: 900;
+    color: #000000;
   }
   
   .nav > #nav-check {
