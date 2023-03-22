@@ -6,11 +6,14 @@ body {
   margin: 0px;
   font-family: 'Poppins', sans-serif;
   font-weight: 600;
-  background-image: url(images/blobbg.png);
+  background-image: radial-gradient(circle at top right, #006118 30%, #ffffff 30%),
+                    radial-gradient(circle at bottom left, #006118 10%, #ffffff 10%);
+  background-size: 100% 70%;
+  background-position: top right, bottom left;
   background-repeat: no-repeat;
-  background-size: 100%;
   background-attachment: fixed;
 }
+
 
 
 
