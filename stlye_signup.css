@@ -1,4 +1,8 @@
-
+:root{
+  --primary-color: #ffffff;
+  --alternative-color: #006118;
+  --secondary-color: #212121;
+}
 
 .register-box {
     position: absolute;

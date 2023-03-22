@@ -1,3 +1,10 @@
+:root{
+  --primary-color: #ffffff;
+  --alternative-color: #006118;
+  --secondary-color: #212121;
+}
+
+
 body {
     background-color: rgb(46, 46, 46);
 }

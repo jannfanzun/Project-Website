@@ -2,19 +2,31 @@
   box-sizing: border-box;
 }
 
+
+
 body {
   margin: 0px;
   font-family: 'Poppins', sans-serif;
   font-weight: 600;
-  background-image: radial-gradient(circle at top right, #006118 30%, #ffffff 30%),
-                    radial-gradient(circle at bottom left, #006118 10%, #ffffff 10%);
+  background-image: radial-gradient(circle at top right, var(--alternative-color) 30%, var(--primary-color) 30%),
+                    radial-gradient(circle at bottom left, var(--alternative-color)10%, var(--primary-color));
   background-size: 100% 70%;
   background-position: top right, bottom left;
   background-repeat: no-repeat;
   background-attachment: fixed;
+ 
 }
 
+:root{
+  --primary-color: #ffffff;
+  --alternative-color: #006118;
+  --secondary-color: #212121;
+}
 
+#icon{
+  width: 30px;
+  cursor: pointer;
+}
 
 
 .loading {
