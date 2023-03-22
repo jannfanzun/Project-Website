@@ -60,6 +60,7 @@ body{
     background-color: white;
     border: 1px solid#ececec;
     margin: 20px;
+    box-shadow: 0 15px 25px rgba(0,0,0,.6);
 }
 
 .blog-img{
