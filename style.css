@@ -6,6 +6,10 @@ body {
   margin: 0px;
   font-family: 'Poppins', sans-serif;
   font-weight: 600;
+  background-image: url(images/blobbg.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-attachment: fixed;
 }
 
 
@@ -16,11 +20,6 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
   }
-
-body {
-  background: rgb(255,255,255);
-  background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 0%)
-}
   
 
 .loading svg polyline {
