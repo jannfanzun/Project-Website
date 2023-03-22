@@ -22,9 +22,6 @@
     margin-bottom: 30%;
   }
 
-  .activelink{
-    background-color: #006118;
-  }
   
   .nav > .nav-header {
     display: inline;
@@ -56,14 +53,18 @@
     padding: 24px 10px 24px 10px;
     text-decoration: none;
     color: #efefef;
-    
+    border-bottom: 2px solid transparent;
+    transition: border-bottom-color 0.2s ease-in-out;
+    position: relative; /* Hinzufügen einer relativen Position */
   }
   
   .nav > .nav-links > a:hover {
-    background-color: #ffffff;
+    background-color: transparent;
     font-weight: 900;
-    color: #000000;
+    border-bottom-color: #efefef;
+    bottom: 2px; /* Hinzufügen von negativem Platzhalter, um die Linie unter dem Text zu positionieren */
   }
+  
   
   .nav > #nav-check {
     display: none;
