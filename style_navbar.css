@@ -85,6 +85,11 @@
 
     header{
       margin-bottom: 10%;
+      
+    }
+
+    .nav{
+      z-index: 3;
     }
 
     .nav > .nav-header > .nav-title {
