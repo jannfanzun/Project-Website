@@ -81,7 +81,7 @@
     display: none;
   }
   
-  @media (max-width:900px) {
+  @media (max-width:11900px) {
 
     header{
       margin-bottom: 10%;
@@ -110,13 +110,13 @@
       display: block;
       width: 25px;
       height: 10px;
-      border-top: 2px solid #eee;
+      border-top: 2px solid var(--primary-color);
     }
     .nav > .nav-links {
       position: fixed;
       display: block;
       width: 100%;
-      background-color: #333;
+      background-color: var(--secondary-color);
       height: 0px;
       transition: all 0.3s ease-in;
       overflow-y: hidden;
