@@ -2,8 +2,9 @@
     --primary-color: #ffffff;
     --alternative-color: #006118;
     --secondary-color: #212121;
+    --grey-color: #868686;
+    --linkhover-color: #00a529;
   }
-
 *{
     margin: 0px;
     padding: 0px;
@@ -41,7 +42,7 @@
     justify-content: space-around;
 }
 .text h1{
-    color: green;
+    color: var(--alternative-color);
     font-size: 85px;
     margin-bottom: 20px;
     text-transform: capitalize;
@@ -74,7 +75,7 @@ button{
 button:hover{
     transform: scale(1.2);
     border: 2px solid;
-    background-color: #006118;
+    background-color: var(--alternative-color);
     color: rgb(255, 255, 255);
     cursor: pointer;
     transition: .4s;

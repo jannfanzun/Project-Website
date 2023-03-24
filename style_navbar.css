@@ -2,6 +2,8 @@
   --primary-color: #ffffff;
   --alternative-color: #006118;
   --secondary-color: #212121;
+  --grey-color: #868686;
+  --linkhover-color: #00a529;
 }
 
 
@@ -102,7 +104,7 @@
       padding: 13px;
     }
     .nav > .nav-btn > label:hover,.nav  #nav-check:checked ~ .nav-btn > label {
-      background-color: rgba(0, 0, 0, 0.3);
+      background-color: var(--secondary-color);
     }
     .nav > .nav-btn > label > span {
       display: block;

@@ -2,6 +2,11 @@
   box-sizing: border-box;
 }
 
+/*
+var(--alternative-color)
+var(--primary-color)
+var(--secondary-color)
+ */
 
 
 body {
@@ -9,7 +14,7 @@ body {
   font-family: 'Poppins', sans-serif;
   font-weight: 600;
   background-image: radial-gradient(circle at top right, var(--alternative-color) 30%, var(--primary-color) 30%),
-                    radial-gradient(circle at bottom left, var(--alternative-color)10%, var(--primary-color));
+                    radial-gradient(circle at bottom left, var(--alternative-color)10%, var(--primary-color) 10%);
   background-size: 100% 70%;
   background-position: top right, bottom left;
   background-repeat: no-repeat;
@@ -21,6 +26,8 @@ body {
   --primary-color: #ffffff;
   --alternative-color: #006118;
   --secondary-color: #212121;
+  --grey-color: #868686;
+  --linkhover-color: #00a529;
 }
 
 #icon{
@@ -46,7 +53,7 @@ body {
   
   .loading svg polyline#back {
     fill: none;
-    stroke: #31914033;
+    stroke: var(--secondary-color);
   }
   
   .loading svg polyline#front {

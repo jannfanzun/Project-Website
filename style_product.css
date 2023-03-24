@@ -2,6 +2,8 @@
   --primary-color: #ffffff;
   --alternative-color: #006118;
   --secondary-color: #212121;
+  --grey-color: #868686;
+  --linkhover-color: #00a529;
 }
 
 
@@ -44,7 +46,7 @@ body{
 }
 
 .blog-heading span{
-  color: darkgreen;
+  color: var(--alternative-color);
 
 }
 
@@ -89,7 +91,7 @@ body{
 }
 
 .blog-text span {
-  color: darkgreen;
+  color: var(--alternative-color);
   font-size: 0.9rem;
 }
 
@@ -99,7 +101,7 @@ body{
   color: #272727;
 }
 .blog-text .blog-title:hover{
-  color: rgb(0, 175, 38);
+  color: var(--linkhover-color);
   transition: all ease 0.3s;
 }
 
@@ -120,7 +122,7 @@ body{
 }
 
 .blog-text a:hover{
-  color: darkgreen;
+  color: var(--alternative-color);
   transition: all ease 0.3s;
 }
 
