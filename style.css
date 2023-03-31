@@ -30,10 +30,17 @@ body {
   --linkhover-color: #00a529;
 }
 
-#icon{
+#icon-moon {
   width: 30px;
   cursor: pointer;
+  transition: transform 0.7s ease-out;
 }
+
+#icon-moon:hover {
+  transform: translateX(3px);
+  filter: invert(1);
+}
+
 
 
 .loading {
