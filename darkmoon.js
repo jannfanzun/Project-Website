@@ -1,9 +1,6 @@
-const moonicon = document.getElementById("icon");
+const moonIcon = document.getElementById("icon-moon");
+const moonImg = moonIcon.querySelector("moon.png");
 
-icon.addEventListener("click", function() {
-  if (icon.src.endsWith("dark-moon.png")) {
-    icon.src = "white-moon.png";
-  } else {
-    icon.src = "dark-moon.png";
-  }
+moonIcon.addEventListener("click", function() {
+  moonIcon.src = "images/sun.png";
 });
