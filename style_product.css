@@ -53,7 +53,8 @@ body{
 .blog-heading h3{
   color: #2b2b2b;
   font-size: 2.4rem;
-  font-weight: 300;   
+  font-weight: 300; 
+  text-align: center;  
 }
 
 .blog-container{
