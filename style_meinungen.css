@@ -71,10 +71,10 @@ body{
     box-shadow: 0 15px 25px rgba(0,0,0,.6);
 }
 
-.blog-img{
+.blog-img {
     width: 100%;
-    height: auto;
-}
+    height: 300px; /* oder z.B. 50% */
+    }
 
 .blog-img img{
     width: 100%;
