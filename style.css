@@ -2,11 +2,6 @@
   box-sizing: border-box;
 }
 
-/*
-var(--alternative-color)
-var(--primary-color)
-var(--secondary-color)
- */
 
 
 body {
@@ -29,6 +24,7 @@ body {
   --grey-color: #868686;
   --linkhover-color: #00a529;
 }
+
 
 #icon {
   width: 30px;
