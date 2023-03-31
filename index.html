@@ -1,108 +1,154 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>index</title>
+
+    <!-- ==== STYLE.CSS ==== -->
+    <link rel="stylesheet" href="style_index.css" />
     <link rel="stylesheet" href="style_navbar.css">
-    <link rel="icon" type="image/x-icon" href="images/MicrosoftTeams-image.ico">
+    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="stlye_footer.css">
-    <title>MDCoaching</title>
+    <!-- ====  REMIXICON CDN ==== -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap" rel="stylesheet">
-
-</head>
-<body>
-  
-  <header>
-    <div class="nav">
-        <input type="checkbox" id="nav-check">
-        <div class="nav-header">
-          <div class="nav-title">
-           <a class="startlink" href="index.html">MDCoaching</a> 
+    <!-- ==== ANIMATE ON SCROLL CSS CDN  ==== -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  </head>
+  <body>
+    <!-- ==== HEADER ==== -->
+    <header>
+      <div class="nav">
+          <input type="checkbox" id="nav-check">
+          <div class="nav-header">
+            <div class="nav-title">
+              <a class="startlink" href="index.html">MDCoaching</a> 
+            </div>
+          </div>
+          <div class="nav-btn">
+            <label for="nav-check">
+              <span></span>
+              <span></span>
+              <span></span>
+            </label>
+          </div>
+          
+          <div class="nav-links">
+            <a href="index.html">Start</a>
+            <a href="product.html">Angebote</a>
+            <a href="contact.html">Kontakt</a>
+            <a href="rezensionen.html">Rezensionen</a>
+            <a href="meinungen.html">Supplements</a>
+            <a href="aboutus.html">Über uns</a>
+            <a href="login.html">Login</a>
           </div>
         </div>
-        <div class="nav-btn">
-          <label for="nav-check">
-            <span></span>
-            <span></span>
-            <span></span>
-          </label>
+  </header>
+
+    <section class="wrapper">
+      <div class="container">
+        <div class="grid-cols-2">
+          <div class="grid-item-1">
+            <h1 class="main-heading">
+              Herzlich Wilkommen zu <span>MDCoaching.</span>
+              <br />
+              Fitness und Gesundheit.
+            </h1>
+            <p class="info-text">
+              Build a beautiful, modern website with flexible components built
+              from scratch.
+            </p>
+
+            <div class="btn_wrapper">
+              <button class="btn view_more_btn">
+                view all pages <i class="ri-arrow-right-line"></i>
+              </button>
+
+              <button class="btn documentation_btn">documentation</button>
+            </div>
+          </div>
+          <div class="grid-item-2">
+            <div class="team_img_wrapper">
+              <img src="images/bgforinde.png" alt="team-img" />
+            </div>
+          </div>  
         </div>
-        
-        <div class="nav-links">
-          
-          <a href="index.html">Start</a>
-          <a href="product.html">Angebote</a>
-          <a href="contact.html">Kontakt</a>
-          <a href="rezensionen.html">Rezensionen</a>
-          <a href="meinungen.html">Supplements</a>
-          <a href="aboutus.html">Über uns</a>
-          <a href="login.html">Login</a>
-          
+      </div>
+    </section>
+
+    <section class="wrapper">
+      <div class="container" data-aos="fade-up" data-aos-duration="1000">
+        <div class="grid-cols-3">
+          <div class="grid-col-item">
+            <div class="icon">
+              
+            </div>
+            <div class="featured_info">
+              <span>Built for developers </span>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore
+                ratione facilis animi voluptas exercitationem molestiae.
+              </p>
+            </div>
+          </div>
+          <div class="grid-col-item">
+            <div class="icon">
+            
+            </div>
+            <div class="featured_info">
+              <span>Designed to be modern</span>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut
+                ipsum esse corrupti. Quo, labore debitis!
+              </p>
+            </div>
+          </div>
+
+          <div class="grid-col-item">
+            <div class="icon">
+             
+            </div>
+            <div class="featured_info">
+              <span>Documentation for everything</span>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Non
+                nostrum voluptate totam ipsa corrupti vero!
+              </p>
+            </div>
+          </div>
         </div>
-        <img src="images/moon.png" id="icon" alt="">
+      </div>
+    </section>
+
+    <footer>
+      <div class="footer-content">
+          <h3>MDC</h3>
+          <p>Bei MDCoaching wissen wir, dass zwei Köpfe besser sind als einer. Mit unserem dynamischen Duo an Coaches erhalten Sie doppelte Unterstützung auf Ihrem Weg zu Ihren Fitnesszielen.</p>
 
       </div>
-    </div>
-  
-      
-</header>
-    
+      <div class="footer-bottom">
+          <p>copyright © <a href="https://www.instagram.com/jann.fanzun/">jann </a><p> &<a href="https://www.instagram.com/noahbenzzz/">Noah</a></p>  </p>
+                  <div class="footer-menu">
+                    <ul class="f-menu">
+                      <li><a href="aboutus.html">Über uns</a></li>
+                      <li><a href="contact.html">Kontakt</a></li>
+                      <li><a href="blog.html">Blog</a></li>
+                    </ul>
+                  </div>
+      </div>
 
+  </footer>
 
-
-<section class="sec">
-  <div class="content">
-    <div class="textBox">
-      <h2>Like Nature <br><span>Be Creative!</span></h2>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum libero maiores distinctio blanditiis eveniet obcaecati cumque odit cupiditate saepe, quod quo voluptatum ipsa eligendi accusantium. Exercitationem alias eaque unde culpa?</p>
-  <a href="#" class="info-btn">More info</a>  
-  </div>
-  </div>
-</section>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-      <footer>
-        <div class="footer-content">
-            <h3>MDC</h3>
-            <p>Bei MDCoaching wissen wir, dass zwei Köpfe besser sind als einer. Mit unserem dynamischen Duo an Coaches erhalten Sie doppelte Unterstützung auf Ihrem Weg zu Ihren Fitnesszielen.</p>
-
-        </div>
-        <div class="footer-bottom">
-            <p>copyright © <a href="https://www.instagram.com/jann.fanzun/">jann </a><p> &<a href="https://www.instagram.com/noahbenzzz/">Noah</a></p>  </p>
-                    <div class="footer-menu">
-                      <ul class="f-menu">
-                        <li><a href="aboutus.html">Über uns</a></li>
-                        <li><a href="contact.html">Kontakt</a></li>
-                        <li><a href="blog.html">Blog</a></li>
-                      </ul>
-                    </div>
-        </div>
-
-    </footer>
-    <script src="themetoggle.js"></script>
-    
-</body>
+    <!-- ==== ANIMATE ON SCROLL JS CDN -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- ==== GSAP CDN ==== -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.min.js"></script>
+    <!-- ==== SCRIPT.JS ==== -->
+    <script src="./script.js" defer></script>
+  </body>
 </html>
