@@ -47,6 +47,7 @@ body{
 
 .blog-heading span{
   color: var(--alternative-color);
+  font-size: 25px;
 
 }
 
