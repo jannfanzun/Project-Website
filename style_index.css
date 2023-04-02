@@ -103,6 +103,9 @@ button {
   line-height: 28px;
   color: #334157;
 }
+.blackmode-text{
+  color: #96a586;
+}
 .btn_wrapper {
   margin-top: 3.5rem;
   display: flex;
