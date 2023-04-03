@@ -21,7 +21,7 @@ body {
   width: 80%;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: -30%;
+  margin-bottom: -100%;
 }
 
 .fa-quote {
@@ -39,7 +39,7 @@ body {
   right: 40px;
 }
 .neues-div{
-max-width: 768px;
+max-width: 800px;
 width: 80%;
 margin: -100px 10% 0;
 padding: 20px;
@@ -100,12 +100,14 @@ margin-top: 20%;
   }
 }
 
-@media (max-width: 768px) {
-  .testimonial-container {
-    padding: 20px 30px;
-  }
-
-  .fa-quote {
-    display: none;
-  }
+@media screen and (min-width: 1090px) and (max-width: 2000px){
+.testimonial-container{
+    margin-bottom : -40%;
 }
+}
+
+@media screen and (min-width: 2000px) and (max-width: 3000px){
+    .testimonial-container{
+        margin-bottom : -30%;
+    }
+    }
