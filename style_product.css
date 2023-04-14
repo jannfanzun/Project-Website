@@ -48,6 +48,7 @@ body{
 .blog-heading span{
   color: var(--alternative-color);
   font-size: 25px;
+  margin-top: 5%;
 
 }
 
@@ -64,6 +65,7 @@ body{
   align-items: center;
   margin: 20px 0px;
   flex-wrap: wrap;
+  margin-bottom: -40%;
 }
 
 .blog-box{
@@ -132,11 +134,17 @@ body{
   .blog-box{
   width: 300px;
   }
+  .blog-container{
+    margin-bottom: -190%;
+  }
 }
 
 @media(max-width:1100px){
   .blog-box{
       width: 70%;
+  }
+  .blog-container{
+    margin-bottom: -190%;
   }
 }
 
@@ -144,6 +152,9 @@ body{
   .blog-box{
       margin: 20px 10px;
       width: 100%;
+  }
+  .blog-container{
+    margin-bottom: -190%;
   }
 
   #blog{
