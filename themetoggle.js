@@ -18,7 +18,7 @@ function updateTheme(theme) {
       }
     });
   }
-  
+  const logoIcon = document.getElementById("mdc-logo");
   const moonIcon = document.getElementById("icon");
   
   if (localStorage.getItem("theme")) {
@@ -28,6 +28,7 @@ function updateTheme(theme) {
       moonIcon.src = "images/moon.png";
     } else if (theme === "dark") {
       moonIcon.src = "images/sun.png";
+  
     }
   }
   
@@ -38,10 +39,12 @@ function updateTheme(theme) {
       moonIcon.src = "images/moon.png";
       localStorage.setItem("theme", "light");
       updateTheme("light");
+      
     } else {
       moonIcon.src = "images/sun.png";
       localStorage.setItem("theme", "dark");
       updateTheme("dark");
+
     }
   });
   
