@@ -1,7 +1,7 @@
 const logoIcon = document.getElementById("mdc-logo");
-const moonIcon = document.getElementById("icon");
+
 if (localStorage.getItem("theme")) {
-   
+    const theme = localStorage.getItem("theme");
     if (theme === "light") {
       logoIcon.src = "images/blackmode-logo.png.png";
     } else if (theme === "dark") {
@@ -13,8 +13,9 @@ if (localStorage.getItem("theme")) {
     const theme = localStorage.getItem("theme");
   
     if (theme === "dark") {
-      logoIcon.src = "images/blackmode-logo.png.png";
-    } else {
+      
       logoIcon.src = "images/whitemode-logo.png.png";
+    } else {
+        logoIcon.src = "images/blackmode-logo.png.png";
     }
-  });
+  });   
