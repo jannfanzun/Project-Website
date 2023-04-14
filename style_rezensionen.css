@@ -11,7 +11,7 @@ body {
 }
 
 .testimonial-container {
-  background-color: #257a38;
+  background-color: #000000;
   color: #fff;
   border-radius: 15px;
   margin: 20px 10% 0;
@@ -55,8 +55,9 @@ margin-left: 15%;
 
 
 .testimonial {
-  line-height: 28px;
+  padding-top: 5%;
   text-align: justify;
+  letter-spacing: 0.1px;
 }
 
 .user {

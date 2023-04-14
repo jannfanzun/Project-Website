@@ -104,7 +104,7 @@ button {
   color: #334157;
 }
 .blackmode-text{
-  color: #96a586;
+  color: #d6f3c4;
 }
 .btn_wrapper {
   margin-top: 3.5rem;
@@ -237,6 +237,12 @@ footer {
   background-color: var(--primary-color);
   height: 12px;
 
+}
+.link-hover:hover{
+  color: #00a529;
+}
+.link-hover{
+  color: rgb(0, 191, 255);
 }
 
 /* ==== MEDIA QURIES FOR RESPONSIVE DESIGN ==== */
