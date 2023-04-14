@@ -53,7 +53,7 @@
             <h3>unsere Meinungen zu Supplements</h3>
         </div>
 
-        <div class="blog-container">
+        <!-- <div class="blog-container">
 
             <div class="blog-box">
 
@@ -135,8 +135,32 @@
                 </div>
 
             </div>
+                <p>Proteinpulver ist eine konzentrierte Quelle von Protein, die leicht in Wasser oder Milch aufgelöst werden kann. Es kann dabei helfen, den Körper mit ausreichend Protein für den Muskelaufbau und die Erholung nach dem Training zu versorgen. Proteinpulver ist praktisch, leicht verdaulich und kann schnell vom Körper aufgenommen werden, was es zu einer beliebten Ergänzung für Fitness-Enthusiasten macht.</p>
 
-        </div>
+        </div> -->
+
+
+        <div class="blog-container">
+            <div class="blog-box">
+              <div class="front">
+                <div class="blog-img">
+                  <img src="images/proteinoulver.webp" alt="">
+                </div>
+                <div class="blog-text">
+                  <span>Muskelaufbau / Regeneration</span>
+                  <a class="blog-title">Proteinpulver</a>
+                  <p>Proteinpulver ist eine konzentrierte Quelle von Protein, die leicht in Wasser oder Milch aufgelöst werden kann. Es kann dabei helfen, den Körper mit ausreichend Protein für den Muskelaufbau und die Erholung nach dem Training zu versorgen. Proteinpulver ist praktisch, leicht verdaulich und kann schnell vom Körper aufgenommen werden, was es zu einer beliebten Ergänzung für Fitness-Enthusiasten macht.</p>
+                  <a class="read-more" onclick="toggleCard(event)">Informieren</a>
+                </div>
+              </div>
+              <div class="back">
+                <p>Proteinpulver ist eine konzentrierte Quelle von Protein, die leicht in Wasser oder Milch aufgelöst werden kann. Es kann dabei helfen, den Körper mit ausreichend Protein für den Muskelaufbau und die Erholung nach dem Training zu versorgen. Proteinpulver ist praktisch, leicht verdaulich und kann schnell vom Körper aufgenommen werden, was es zu einer beliebten Ergänzung für Fitness-Enthusiasten macht.</p>
+                <a class="read-more" onclick="toggleCard(event)">Umdrehen</a>
+              </div>
+            </div>
+          </div>
+          
+
 
     </section>
 
@@ -159,5 +183,29 @@
 
     </footer>
     <script src="themetoggle.js"></script>
+    <script>
+    var blogBoxes = document.querySelectorAll('.blog-box');
+
+        blogBoxes.forEach(function(blogBox) {
+          var readMoreButton = blogBox.querySelector('.read-more');
+        
+          readMoreButton.addEventListener('click', function() {
+            blogBox.classList.toggle('flipped');
+          });
+        });
+
+        function toggleCard(event) {
+  event.preventDefault();
+  var clickedButton = event.target;
+  var blogBox = clickedButton.closest('.blog-box');
+  if (clickedButton.classList.contains('flip-btn')) {
+    blogBox.classList.toggle('flipped');
+  } else {
+    blogBox.classList.remove('flipped');
+  }
+}
+
+        
+        </script>
 </body>
 </html>
