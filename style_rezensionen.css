@@ -49,6 +49,7 @@ font-weight:  300;
 font-size: 35px;
 line-height: 55px;
 margin-top: 20%;
+margin-left: 15%;
 
 }
 
@@ -111,3 +112,9 @@ margin-top: 20%;
         margin-bottom : -30%;
     }
     }
+
+@media screen and (min-width: 1200px) and (max-width: 2000px){
+    .neues-div{
+          margin-left : 25%;
+      }
+      }

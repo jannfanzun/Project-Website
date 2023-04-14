@@ -1,3 +1,4 @@
+
 :root, .light {
   --primary-color: #ffffff;
   --alternative-color: #006118;
@@ -9,14 +10,15 @@
 }
 
 :root, .dark {
-  --primary-color: #033d0c;
-  --alternative-color: #006118;
+  --primary-color: #303332;
+  --alternative-color: #0e100e;
   --secondary-color: #212121;
   --grey-color: #868686;
   --linkhover-color: #00a529;
  
 
 }
+
 
 * {
     box-sizing: border-box;
