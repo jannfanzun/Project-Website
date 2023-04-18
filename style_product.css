@@ -45,6 +45,16 @@ body{
   flex-direction: column;
 }
 
+.blog-box.flipped .back .read-more{
+  position: absolute;
+  bottom: 6%;
+  left: 7%;
+  }
+
+  .blog-box.flipped .back .read-more:hover{
+      color: var(--alternative-color);
+      }
+
 .blog-heading span{
   color: var(--alternative-color);
   font-size: 25px;

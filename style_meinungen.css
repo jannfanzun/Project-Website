@@ -93,7 +93,17 @@ body{
   .blog-box .back p {
     padding: 30px;
   }
-  
+
+  .blog-box.flipped .back .read-more{
+    position: absolute;
+    bottom: 5%;
+    left: 5%;
+    }
+
+    .blog-box.flipped .back .read-more:hover{
+        color: var(--alternative-color);
+        }
+
   .blog-box.flipped .back {
     transform: rotateY(0deg);
   }
@@ -117,13 +127,15 @@ body{
     flex-direction: column;
 }
 
-.read-more{
-    margin-top: 20px;
+.read-more {
+    margin-top: auto;
+    margin-bottom: 0;
     color: #2b2b2b;
     font-size: 18px;
     font-weight: 500;
     cursor: pointer;
 }
+
 
 .blog-text span {
     color: var(--alternative-color);
@@ -136,7 +148,7 @@ body{
     color: #272727;
 }
 .blog-text .blog-title:hover{
-    color: --linkhover-color;
+    color: var(--linkhover-color);
     transition: all ease 0.3s;
 }
 
