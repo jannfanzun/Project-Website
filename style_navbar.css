@@ -36,7 +36,23 @@
     color: white;
   }
 
+  .nav-hide {
+    transform: translateY(-100%);
+    transition: transform 0.5s;
+  }
+  
+  .nav-show {
+    transform: translateY(0%);
+    transition: transform 0.5s;
+  }
 
+  .fa-bars {
+    font-size: 30px;
+    color: white;
+
+ }
+  
+  
 
   .nav {
     height: 75px;
