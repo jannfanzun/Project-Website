@@ -45,6 +45,16 @@ body{
   flex-direction: column;
 }
 
+.blog-box.flipped .back .read-more{
+  position: absolute;
+  bottom: 6%;
+  left: 7%;
+  }
+
+  .blog-box.flipped .back .read-more:hover{
+      color: var(--alternative-color);
+      }
+
 .blog-heading span{
   color: var(--alternative-color);
   font-size: 25px;
@@ -71,7 +81,7 @@ body{
 .blog-box{
   width: 350px;
   background-color: white;
-  border: 1px solid#ececec;
+  border: none;
   margin: 20px;
   box-shadow: 0 15px 25px rgba(0,0,0,.6);
   position: relative; /* karte umdrehen */
@@ -178,7 +188,7 @@ body{
       width: 70%;
   }
   .blog-container{
-    margin-bottom: -190%;
+    margin-bottom: -150%;
   }
 }
 

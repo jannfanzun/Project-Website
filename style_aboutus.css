@@ -75,4 +75,52 @@
     background-color: #c5c9c5;
   }
 
+  @media(max-width:1350px) {
+    .wrapper {
+      margin-bottom: -50%;
+    }
+    .team .team_member{
+      padding-bottom: 500px;
+    }
+  }
+  
+  @media(max-width:1000px){
+    .team {
+      margin-bottom: -100%;
+    }
+    .team .team_member{
+      padding-bottom: 500px;
+    }
+  }
+
+  @media (max-width:900px){
+    .wrapper {
+      margin-bottom: -140%;
+    }
+    .team .team_member{
+      margin-bottom: 140px;
+      padding-bottom: 200px;
+      
+    }
+  }
+  
+  @media(max-width:590px){
+    .wrapper {
+      margin-bottom: -250%;
+    }
+    .team .team_member{
+      margin-bottom: 140px;
+      padding-bottom: 420px;
+    }
+
+    @media(max-width:350px){
+      .wrapper {
+        margin-bottom: -250%;
+      }
+      .team .team_member{
+        margin-bottom: 140px;
+        padding-bottom: 500px;
+      }
+  }
+  }
   
