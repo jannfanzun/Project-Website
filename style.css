@@ -8,21 +8,13 @@ body {
   margin: 0px;
   font-family: 'Poppins', sans-serif;
   font-weight: 600;
-  background-image: radial-gradient(circle at top right, var(--alternative-color) 30%, var(--primary-color) 30%),
-                    radial-gradient(circle at bottom left, var(--alternative-color)10%, var(--primary-color) 10%);
+  background-image: radial-gradient(circle at top right,var(--alternative-color) 30%, var(--primary-color) 30%),
+                    radial-gradient(circle at bottom left,var(--alternative-color) 10%, var(--primary-color) 10%);
   background-size: 100% 70%;
   background-position: top right, bottom left;
   background-repeat: no-repeat;
   background-attachment: fixed;
  
-}
-
-:root{
-  --primary-color: #ffffff;
-  --alternative-color: #006118;
-  --secondary-color: #212121;
-  --grey-color: #868686;
-  --linkhover-color: #00a529;
 }
 
 

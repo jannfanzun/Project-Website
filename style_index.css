@@ -14,13 +14,12 @@
 }
 
 /* ==== CSS VARIABLES ==== */
-:root {
-  --primary-color: #335eea;
-  --link-color: #506690;
-  --btn-hover-color: #2b50c7;
-  --lg-heading: #161c2d;
-  --text-content: #869ab8;
-  --fixed-header-height: 4.5rem;
+:root{
+  --primary-color: #ffffff;
+  --alternative-color: #006118;
+  --secondary-color: #212121;
+  --grey-color: #868686;
+  --linkhover-color: #00a529;
 }
 
 /* ==== RESET HTML ==== */
@@ -363,3 +362,184 @@ footer {
     font-size: 19px;
   }
 }   
+
+
+/* ---------------------------------angebote------------------ */
+
+#blog{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding:10px;
+  border-top: 3px solid rgb(0, 49, 122);
+  border-bottom: 3px solid rgb(0, 49, 122);
+  padding-bottom: 4%;
+  background-color: var(--primary-color);
+}
+
+.blog-heading{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.blog-box.flipped .back .read-more{
+  position: absolute;
+  bottom: 6%;
+  left: 7%;
+  }
+
+  .blog-box.flipped .back .read-more:hover{
+      color: var(--alternative-color);
+      }
+
+.blog-heading span{
+  color: var(--alternative-color);
+  font-size: 25px;
+  margin-top: 5%;
+
+}
+
+.blog-heading h3{
+  color: #2b2b2b;
+  font-size: 2.4rem;
+  font-weight: 300; 
+  text-align: center;  
+}
+
+.blog-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0px;
+  flex-wrap: wrap;
+}
+
+.blog-box{
+  width: 550px;
+  background-color: white;
+  border: none;
+  margin: 20px;
+  box-shadow: 0 15px 25px rgba(0,0,0,.6);
+  position: relative; /* karte umdrehen */
+}
+
+  /* von hier bis -> und oben position relative */
+.blog-box .back {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  transform: rotateY(180deg);
+  backface-visibility: hidden;
+  transition: transform 0.5s ease-in-out;
+}
+
+.blog-box .back p {
+  padding: 30px;
+}
+
+.blog-box.flipped .back {
+  transform: rotateY(0deg);
+}
+
+.read-more{
+  margin-top: 20px;
+  color: #2b2b2b;
+  font-size: 18px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+/* hier karte umdrehen */
+
+.blog-img{
+  width: 100%;
+  height: 50%;
+}
+
+.blog-img img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.blog-text{
+  padding:30px;
+  display: flex;
+  flex-direction: column;
+}
+
+.blog-text span {
+  color: var(--alternative-color);
+  font-size: 0.9rem;
+}
+
+.blog-text .blog-title{
+  font-size: 1.3rem;
+  font-weight: 500;
+  color: #272727;
+}
+.blog-text .blog-title:hover{
+  color: var(--linkhover-color);
+  transition: all ease 0.3s;
+}
+
+.blog-text p{
+  color: #9b9b9b;
+  font-size: 0.9rem;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin: 20px 0px;
+}
+
+.blog-text a{
+  color: #0f0f0f;
+
+}
+
+.blog-text a:hover{
+  color: var(--alternative-color);
+  transition: all ease 0.3s;
+}
+
+@media(max-width:1250px) {
+  .blog-box{
+  width: 300px;
+  }
+  .blog-container{
+    margin-bottom: -190%;
+  }
+}
+
+@media(max-width:1100px){
+  .blog-box{
+      width: 70%;
+  }
+  .blog-container{
+    margin-bottom: -150%;
+  }
+}
+
+@media(max-width:550px){
+  .blog-box{
+      margin: 20px 10px;
+      width: 100%;
+  }
+  .blog-container{
+    margin-bottom: -190%;
+  }
+
+  #blog{
+      margin-top: 14%;
+      padding: 20px;
+  }
+}
