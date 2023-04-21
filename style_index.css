@@ -1,3 +1,7 @@
+
+
+
+
 /* ==== "Inter" FONT-FAMILY FROM FONTS.GOOGLE.COM  ==== */
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap");
 /* ==== ROOT RESET ==== */
@@ -13,6 +17,14 @@
   box-sizing: border-box;
 }
 
+/* ==== CSS VARIABLES ==== */
+:root{
+  --primary-color: #ffffff;
+  --alternative-color: #006118;
+  --secondary-color: #212121;
+  --grey-color: #868686;
+  --linkhover-color: #00a529;
+}
 
 /* ==== RESET HTML ==== */
 body {
@@ -94,7 +106,7 @@ button {
   color: #334157;
 }
 .blackmode-text{
-  color: #d6f3c4;
+  color: #ffffff !important;
 }
 .btn_wrapper {
   margin-top: 3.5rem;
@@ -364,8 +376,8 @@ footer {
   align-items: center;
   flex-direction: column;
   padding:10px;
-  border-top: 3px solid rgb(0, 49, 122);
-  border-bottom: 3px solid rgb(0, 49, 122);
+  border-top: 3px solid var(--line-break-color);  
+  border-bottom: 3px solid var(--line-break-color);  
   padding-bottom: 4%;
   background-color: var(--primary-color);
 }

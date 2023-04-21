@@ -1,21 +1,3 @@
-
-:root, .light{
-  --primary-color: #ffffff;
-  --alternative-color: rgb(186, 186, 186);
-  --secondary-color: #212121;
-  --grey-color: #868686;
-  --linkhover-color: #00a529;
-}
-
-:root, .dark {
-  --primary-color: #303332;
-  --alternative-color: #0e100e;
-  --secondary-color: #212121;
-  --grey-color: #868686;
-  --linkhover-color: #00a529;
-}
-
-
 * {
     box-sizing: border-box;
     text-decoration: none;
