@@ -49,10 +49,11 @@
 }
 
 .team .team_member p.role{
-  color: #ccc;
+  color: #306700;
   margin: 12px 0;
-  font-size: 12px;
+  font-size: 14px;
   text-transform: uppercase;
+  font-weight: 900;
 }
 
 .team .team_member .team_img{
