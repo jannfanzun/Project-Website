@@ -1,10 +1,4 @@
-:root{
-  --primary-color: #ffffff;
-  --alternative-color: #006118;
-  --secondary-color: #212121;
-  --grey-color: #868686;
-  --linkhover-color: #00a529;
-}
+
 
 .register-box {
     position: absolute;

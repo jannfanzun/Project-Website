@@ -3,11 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
-:root{
-    --primary-color: #ffffff;
-    --alternative-color: #006118;
-    --secondary-color: #212121;
-  }
+
 footer{
     position: relative;
     bottom: 0;
