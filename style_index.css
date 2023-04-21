@@ -17,15 +17,6 @@
   box-sizing: border-box;
 }
 
-/* ==== CSS VARIABLES ==== */
-:root{
-  --primary-color: #ffffff;
-  --alternative-color: #006118;
-  --secondary-color: #212121;
-  --grey-color: #868686;
-  --linkhover-color: #00a529;
-}
-
 /* ==== RESET HTML ==== */
 body {
   width: 100%;
@@ -370,17 +361,18 @@ footer {
 
 /* ---------------------------------angebote------------------ */
 
-#blog{
+#blog {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  padding:10px;
-  border-top: 3px solid var(--line-break-color);  
-  border-bottom: 3px solid var(--line-break-color);  
+  padding: 10px;
+  box-shadow: 0px 0px 10px 5px var(--shadow-color);
   padding-bottom: 4%;
   background-color: var(--primary-color);
+
 }
+
 
 .blog-heading{
   display: flex;
@@ -550,11 +542,33 @@ footer {
 
 /* ---------newsletter--------- */
 
-.container-news{
-  display: flex;
-  align-items: center;
-  margin-top: 50%;
+.newletter-box-shadow {
+  box-shadow: 0px 0px 10px 5px var(--shadow-color);
 }
+
+
+.text-news-ueberschrift{
+  padding: 3%;
+  position: relative;
+  background-color: var(--primary-color);
+  font-weight:  300;
+  font-size: 35px;
+  line-height: 55px;
+  margin-top: 50%;
+  text-align: center;
+  color: var(--h3-color);
+  }
+  
+.container-news{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--primary-color);
+    padding-bottom: 3%;
+    margin-bottom: -40%;
+  }
+  
+
 
 .newsletter-box {
   margin-left: 3%;
@@ -562,7 +576,9 @@ footer {
 }
 
 .newsletter-text {
-  text-align: center;
+  text-align: left;
+  margin-right: 3%;
+  font-size: 19px;
 }
 
 .login-box {
@@ -578,6 +594,7 @@ footer {
   margin: 20px;
   margin-left: 3%;
 }
+
 
   
   .login-box p:first-child {
