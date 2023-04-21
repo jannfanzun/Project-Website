@@ -103,7 +103,7 @@ button {
   color: #334157;
 }
 .blackmode-text{
-  color: #d6f3c4;
+  color: #ffffff !important;
 }
 .btn_wrapper {
   margin-top: 3.5rem;
