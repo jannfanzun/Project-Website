@@ -6,7 +6,6 @@
   --grey-color: #868686;
   --linkhover-color: #00a529;
   --line-break-color:  rgb(0, 49, 122);
-  --shadow-color:rgba(0, 0, 0, 0.3);
 }
 
 :root, .dark {
@@ -16,7 +15,6 @@
   --grey-color: #868686;
   --linkhover-color: #00a529;
   --line-break-color:rgb(137, 131, 131);
-  --shadow-color:rgba(255, 255, 255, 0.3);
 }
 
 * {
