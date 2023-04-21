@@ -1,12 +1,10 @@
 
-:root, .light {
+:root, .light{
   --primary-color: #ffffff;
-  --alternative-color: #006118;
+  --alternative-color: rgb(186, 186, 186);
   --secondary-color: #212121;
   --grey-color: #868686;
   --linkhover-color: #00a529;
- 
-  
 }
 
 :root, .dark {
@@ -15,8 +13,6 @@
   --secondary-color: #212121;
   --grey-color: #868686;
   --linkhover-color: #00a529;
- 
-
 }
 
 
