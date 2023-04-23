@@ -7,8 +7,8 @@ body {
 position: absolute;
 top: 50%;
 left: 50%;
-width: 60%;
-height: 70%;
+width: 70%;
+height: 75%;
 padding: 40px;
 margin: 20px auto;
 transform: translate(-50%, -55%);
@@ -19,6 +19,7 @@ border-radius: 10px;
 font-family: poppins;
 z-index: -1;
 margin-bottom: -20%;
+margin-top: 2%;
 }
 
 .login-box p:first-child {
@@ -186,7 +187,14 @@ margin-bottom: -20%;
   color: #aaa;
   border-radius: 5px;
 }
+@media only screen and (max-width: 1300px) {
+  .login-box {
+  width: 82%;
+  height: 65%;
+  margin-top: 5%;
 
+  }
+  }
 
 @media only screen and (max-width: 1100px) {
   .login-box {
