@@ -9,6 +9,7 @@
   --linkhover-color: #001fe7;
   --line-break-color:  rgb(0, 49, 122);
   --shadow-color:rgba(0, 0, 0, 0.3);
+  --span-color: darkgreen;
 }
 
 :root, .dark {
@@ -21,6 +22,7 @@
   --linkhover-color: #00b7ff;
   --line-break-color:rgb(137, 131, 131);
   --shadow-color:rgba(255, 255, 255, 0.3);
+  --span-color: rgb(186, 186, 186);
 }
 
 * {
