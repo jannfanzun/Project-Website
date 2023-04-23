@@ -4,12 +4,13 @@
     position: absolute;
     top: 50%;
     left: 50%;
-    width: 400px;
+    width: 500px;
+    height: 600px;
     padding: 40px;
     transform: translate(-50%, -55%);
     background: rgba(0,0,0,.9);
     box-sizing: border-box;
-    box-shadow: 0 15px 25px rgba(0,0,0,.6);
+    box-shadow: 0 15px 25px var(--shadow-color);
     border-radius: 10px;
     font-family: poppins;
     font-weight: 600;
@@ -46,8 +47,8 @@
 
   textarea {
     resize: none;
-    height: 80px;
-    width: 200px;
+    height: 100px;
+    width: 400px;
     margin-top: 10%;
   }
   
