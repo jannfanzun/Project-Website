@@ -7,18 +7,17 @@ const role = document.querySelector(".role");
 const testimonials = [
   {
     name: "Elias Brasser",
-    position: "Marketing",
+    position: "Co-Founder Solunion.app",
     photo:
-      "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=200&fit=max&s=707b9c33066bf8808c934c8ab394dff6",
+      "images/eliasbrasser.jpeg",
     text:
-      "I've worked with literally hundreds of HTML/CSS developers and I have to say the top spot goes to this guy. This guy is an amazing developer. He stresses on good, clean code and pays heed to the details. I love developers who respect each and every aspect of a throughly thought out design and do their best to put it in code. He goes over and beyond and transforms ART into PIXELS - without a glitch, every time.",
+    "Seitdem ich mich MDC angeschlossen habe, konnte ich eine kontinuierliche Zunahme meiner Muskelmasse feststellen. Ich bin erstaunt darüber, wie reibungslos das gesamte Trainingsprogramm abläuft und wie gut alles organisiert ist. Ich bereue es keineswegs, mich für MDC entschieden zu haben und bin dankbar für die Unterstützung auf meinem Fitnessweg."
   },
   {
     name: "Fabio Murari",
     position: "Mitarbeiter EKS",
     photo: "images/murari.jpg",
-    text:
-      "This guy is an amazing frontend developer that delivered the task exactly how we need it, do your self a favor and hire him, you will not be disappointed by the work delivered. He will go the extra mile to make sure that you are happy with your project. I will surely work again with him!",
+    text: ""
   },
   {
     name: "Iida Niskanen",
