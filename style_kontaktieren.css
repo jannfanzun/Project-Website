@@ -232,7 +232,13 @@
       margin-bottom: 20%;
       margin-top: 10%;
       }
+
+      #message{
+        width: 250px;
+        padding-top: 10px;
       }
+      }
+      
 
     @media only screen and (max-width: 350px) {
     .register-box {
@@ -241,4 +247,8 @@
     margin-bottom: 20%;
     margin-top: 30%;
     }
+    #message{
+      width: 200px;
+    }
+    
     }

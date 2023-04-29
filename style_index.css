@@ -779,39 +779,17 @@ a {
       }
     }
     
-    @media only screen and (max-width: 699px) {
-
-      .text-news-ueberschrift{
-        margin-top: 160%;
-      }
-
-      .container-news {
-        display: flex;
-        flex-wrap: wrap;
-      }
-      
-      .login-box {
-        order: 2;
-        width: 90%;
-        margin: 30px auto;
-      }
-      
-      .newsletter-box {
-        order: 1;
-        width: 90%;
-        margin: 30px auto;
-      }
-      
-      .newsletter-text {
-        margin-bottom: 30px;
-      }
-      
-  
+    .login-box .user-box input {
+    font-size: 12px;
     }
     
+    .login-box form a {
+    font-size: 12px;
+    padding: 8px 16px;
+    margin-top: 20px;
+    }
     
-    
-    
-    
-    
-    
+    .login-box a span {
+    display: none;
+    }
+    }
