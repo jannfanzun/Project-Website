@@ -86,6 +86,7 @@ body{
   
   .blog-box .back p {
     padding: 30px;
+    color: var(--text-color);
   }
 
   .blog-box.flipped .back .read-more{
