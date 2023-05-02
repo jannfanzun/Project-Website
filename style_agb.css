@@ -38,7 +38,18 @@
     color: #fff;
     font-size: 26px;
 }
-
+@media(max-width:2000px) {
+    .agb-box{
+    margin-top: 980px;
+    margin-bottom: -90%;
+    }
+}
+@media(max-width:1500px) {
+    .agb-box{
+    margin-top: 980px;
+    margin-bottom: -100%;
+    }
+}
 @media(max-width:1250px) {
     .agb-box{
     margin-top: 1000px;
