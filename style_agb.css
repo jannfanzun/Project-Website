@@ -1,0 +1,127 @@
+.agb-box {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    padding: 40px;
+    width: 80%;
+    transform: translate(-50%, -55%);
+    background: rgba(0,0,0,.9);
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px var(--shadow-color);
+    border-radius: 10px;
+    font-family: poppins;
+    z-index: -1;
+    margin-top: 900px;
+    margin-bottom: -75%;
+
+  }
+  .agb-box p {
+    margin: 0 0 15px;
+    padding: 0;
+    color: #fff;
+    text-align: left;
+    font-size: 14px;
+    
+
+  }
+.agb-title{
+    text-align: center;
+    color: #fff;
+
+}
+.agb-box h3{
+    color: #fff;
+   
+    padding-top: 20px;
+}
+.agb-box h1{
+    color: #fff;
+    font-size: 26px;
+}
+
+@media(max-width:1250px) {
+    .agb-box{
+    margin-top: 1000px;
+    margin-bottom: -120%;
+    }
+}
+
+@media(max-width:1100px){
+    .agb-box{
+        margin-top: 1200px;
+        margin-bottom: -200%;
+     }
+}
+@media(max-width:850px){
+    .agb-box{
+     
+        margin-bottom: -250%;
+     }
+}
+
+@media(max-width:550px){
+    .agb-box{
+       margin-top: 1500px;
+       margin-bottom: -450%
+
+    }
+    .agb-box h1{
+        font-size: 21px;
+    }
+ }
+ @media(max-width:450px){
+    .agb-box{
+       margin-top: 1920px;
+       margin-bottom: -600%;
+    }
+    .agb-box h1{
+        font-size: 21px;
+    }
+    }
+@media(max-width:400px){
+    .agb-box{
+       margin-top: 1980px;
+       margin-bottom: -670%;
+    }
+    .agb-box h1{
+        font-size: 21px;
+    }
+    }
+
+   
+@media(max-width:375px){
+    .agb-box{
+        margin-top: 2000px;
+    }
+    .agb-box h1{
+        font-size: 21px;
+    }
+}
+    
+@media(max-width:360px){
+    .agb-box{
+       margin-top: 2100px;
+       margin-bottom: -720%;
+    }
+    .agb-box h1{
+        font-size: 19px;
+    }
+    }
+
+    @media(max-width:300px){
+        .agb-box{
+           margin-top: 2000px;
+           margin-bottom: -800%;
+        }
+        .agb-box h1{
+            font-size: 15px;
+        }
+        .agb-box h3{
+            font-size: 14px;
+        }
+        .agb-box p{
+            font-size: 11px;
+        }
+        }
+    
+    
