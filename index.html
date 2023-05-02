@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="stlye_footer.css">
     <link rel="stylesheet" href="style_rezensionen.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
     <!-- ====  REMIXICON CDN ==== -->
     <link
@@ -89,7 +90,7 @@
         <span>Angebot des Monats</span>
         <h3 class="change-color" id="top-angebote">unser Top Angebot!</h3>
     </div>
-    <div class="blog-box">
+    <div class="blog-box" data-aos="fade-up" data-aos-duration="1000">
       <div class="front">
         <div class="blog-img">
           <img src="images/fitnessmuskeln.jpg" alt="">
@@ -104,11 +105,11 @@
       </div>
   </section>
   
-    <div class="neues-div">
+    <div class="neues-div" data-aos="fade-right" data-aos-duration="1000">
       Was sagen unsere Kunden?
     </div>
 
-    <div class="testimonial-container">
+    <div class="testimonial-container" data-aos="fade-left" data-aos-duration="1000">
       <div class="progress-bar"></div>
       <div class="fas fa-quote-left fa-quote"></div>
       <div class="fas fa-quote-right fa-quote"></div>
@@ -197,5 +198,8 @@
     <script src="logochange.js"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="navhide.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
