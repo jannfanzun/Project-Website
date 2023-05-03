@@ -17,6 +17,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
 
 </head>
 <body>
@@ -50,14 +51,14 @@
     
 <section id="blog">
 
-  <div class="blog-heading">
+  <div class="blog-heading" data-aos="fade-down" data-aos-duration="1000">
       <span>Angebote</span>
       <h3 class="change-color" id="top-angebote">unsere Top Angebote</h3>
   </div>
 
   <div class="blog-container">
 
-    <div class="blog-box">
+    <div class="blog-box"  data-aos="fade-up" data-aos-duration="1000">
       <div class="front">
         <div class="blog-img">
           <img src="images/gymkondi.jpg" alt="">
@@ -75,7 +76,7 @@
       </div>
     </div>
 
-    <div class="blog-box">
+    <div class="blog-box" data-aos="fade-up" data-aos-duration="1000">
       <div class="front">
         <div class="blog-img">
           <img src="images/fitnessmuskeln.jpg" alt="">
@@ -93,7 +94,7 @@
       </div>
     </div>
 
-    <div class="blog-box">
+    <div class="blog-box" data-aos="fade-up" data-aos-duration="1000">
       <div class="front">
         <div class="blog-img">
           <img src="images/fraugym.jpg" alt="">
@@ -137,5 +138,9 @@
 <script src="flippingCard.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="navhide.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
 </body>
 </html>

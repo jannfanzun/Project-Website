@@ -15,6 +15,7 @@
 
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
 </head>
 <body>
   <header>
@@ -38,14 +39,15 @@
           <a href="meinungen.html">Supplements</a>
           <a href="contact.html">Kontakt</a>
           <a href="aboutus.html">Unser Team</a>
+          <a href="agb.html">AGB</a>
         </div>
         <img src="images/moon.png" id="icon" alt="">
       </div>
 </header>
 <div class="wrapper">
-  <h1 class="heading-about">Unser Team</h1>
+  <h1 class="heading-about" data-aos="fade-down" data-aos-duration="1000">Unser Team</h1>
   <div class="team">
-    <div class="team_member">
+    <div class="team_member" data-aos="fade-right" data-aos-duration="1000">
       <div class="team_img">
         <img src="images/noahbenzportrait.jpg" alt="Team_image">
       </div>
@@ -55,7 +57,7 @@
         <br><br/>
          Mit meinem umfangreichen Wissen und breiten Erfahrungsschatz im Bereich Fitness bin ich stets bereit, anderen mit Rat und Tat zur Seite zu stehen.</p>
     </div>
-    <div class="team_member">
+    <div class="team_member" data-aos="fade-left" data-aos-duration="1000">
       <div class="team_img">
         <img src="images/Jann-Fanzun-1-scaled-e1664368839739 (1).jpg" alt="Team_image">
       </div>
@@ -87,6 +89,10 @@
 <script src="themetoggle.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="navhide.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
 </body>
 </html>
 
