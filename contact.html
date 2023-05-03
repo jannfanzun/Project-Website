@@ -16,6 +16,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
 
 </head>
 <body>
@@ -46,8 +48,8 @@
       </div>
 </header>
     
-      <div class="register-box">
-        <p>Kontaktiere uns!</p>
+      <div class="register-box"  >
+        <p data-aos="fade-down">Kontaktiere uns!</p>
         <form
         action="https://formspree.io/f/mzbqorga"
         method="POST"
@@ -104,5 +106,10 @@
   <script src="themetoggle.js"></script>
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="navhide.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    
+    <script>
+      AOS.init();
+    </script>
 </body>
 </html>
