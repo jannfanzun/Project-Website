@@ -103,6 +103,7 @@ body{
 .blog-box .back ul {
   padding: 20px;
   font-weight: 500;
+  color: var(--text-color);
 }
 
 .blog-box.flipped .back {
