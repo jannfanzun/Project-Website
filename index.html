@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="stlye_footer.css">
     <link rel="stylesheet" href="style_rezensionen.css">
+    <link rel="stylesheet" href="style_kontaktieren.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
@@ -138,22 +139,21 @@
 
       <div class="login-box">
         <p>Newsletter</p>
-      <form>
+      <form
+      name="newsletter-form"
+      action="https://formspree.io/f/mayzvjga"
+      method="POST">
         <div class="user-box">
-          <input required="" name="" type="">
+          <input name="Name" type="text" required >
           <label>Name</label>
         </div>
         <div class="user-box">
-          <input required="" name="" type="">
+          <input  name="Email" type="text" size="30" required>
           <label>Email</label>
         </div>
-        <a href="">
-          <span></span>
-          <span></span>
-          <span></span>
-          <span></span>
+        <button class="button1" type="submit">
           Senden
-        </a>
+        </button>
       </form>
       <p>Erhalte Neuigkeiten!</p>
       </div>
@@ -196,6 +196,7 @@
     <script src="logochange.js"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="navhide.js"></script>
+    <script src="app.js"></script>
     <script>
       AOS.init();
     </script>
