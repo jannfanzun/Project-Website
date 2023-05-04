@@ -116,6 +116,9 @@ body{
   font-size: 18px;
   font-weight: 500;
   cursor: pointer;
+  position: fixed;
+  bottom: 0;
+  margin-bottom: 3%;
 }
 
 /* hier karte umdrehen */
@@ -187,9 +190,12 @@ body{
 
 @media(max-width:550px){
   .blog-box{
-      margin: 20px 10px;
-      width: 100%;
+    margin: 20px auto; /* Damit die Box horizontal zentriert wird */
+    width: 100%; /* Setzt die Box auf 100% Breite */
   }
+
+  .blog-box .back {}
+  
   .blog-container{
     margin-bottom: -190%;
   }
