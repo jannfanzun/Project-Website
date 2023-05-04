@@ -71,7 +71,7 @@ body{
 }
 
 .blog-box{
-  width: 350px;
+  width: 40%;
   background-color: var(--primary-color);
   border: none;
   margin: 20px;
@@ -97,6 +97,12 @@ body{
 .blog-box .back p {
   padding: 30px;
   color: var(--text-color);
+  text-align: center;
+}
+
+.blog-box .back ul {
+  padding: 20px;
+  font-weight: 500;
 }
 
 .blog-box.flipped .back {
@@ -141,10 +147,7 @@ body{
   font-weight: 500;
   color: var(--text-color);
 }
-.blog-text .blog-title:hover{
-  color: var(--linkhover-color);
-  transition: all ease 0.3s;
-}
+
 
 .blog-text p{
   color: #9b9b9b;

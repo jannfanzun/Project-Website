@@ -459,10 +459,7 @@ a {
   font-weight: 500;
   color: var(--text-color);
 }
-.blog-text .blog-title:hover{
-  color: var(--linkhover-color);
-  transition: all ease 0.3s;
-}
+
 
 .blog-text p{
   color: #9b9b9b;
