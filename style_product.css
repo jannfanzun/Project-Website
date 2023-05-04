@@ -37,16 +37,7 @@ body{
   flex-direction: column;
 }
 
-.blog-box.flipped .back .read-more {
-  top: 5%;
-  left: 0;
-  width: 100%;
-  text-align: center;
-  color: var(--text-color);
-  font-size: 18px;
-  font-weight: 500;
-  cursor: pointer;
-}
+
 
 
   .blog-box.flipped .back .read-more:hover{
@@ -99,6 +90,7 @@ body{
     overflow-y: auto; /* hier wird die Rückseite scrollbar */
     padding: 20px; /* optional - um Inhalt von der Seite zu verschieben */
   }
+
   
   .blog-box.flipped .back {
     transform: rotateY(0deg);
@@ -120,15 +112,13 @@ body{
   transform: rotateY(0deg);
 }
 
-.read-more{
-  margin-top: -12px;
+.read-more {
+  margin-top: auto;
+  margin-bottom: 0;
   color: var(--text-color);
   font-size: 18px;
   font-weight: 500;
   cursor: pointer;
-  position: fixed;
-  bottom: 0;
-  margin-bottom: 3%;
 }
 
 /* hier karte umdrehen */
