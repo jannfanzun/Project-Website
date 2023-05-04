@@ -57,7 +57,7 @@ color: var(--text-color);
 
 .testimonial {
   padding-top: 5%;
-  text-align: justify;
+
   letter-spacing: 0.1px;
 }
 
@@ -129,3 +129,17 @@ color: var(--text-color);
         }
         
       }
+
+@media screen and (min-width: 300px) and (max-width: 500px){
+.testimonial{
+  font-size: 13px;
+}
+.user .user-image {
+  border-radius: 50%;
+  height: 60px;
+  width: 60px;
+  object-fit: cover;
+  margin-top: 10px;
+}
+
+}
