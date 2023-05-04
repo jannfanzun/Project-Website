@@ -37,11 +37,17 @@ body{
   flex-direction: column;
 }
 
-.blog-box.flipped .back .read-more{
-  position: absolute;
-  bottom: 20px;
-  left: 20px;
-  }
+.blog-box.flipped .back .read-more {
+  top: 5%;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  color: var(--text-color);
+  font-size: 18px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
 
   .blog-box.flipped .back .read-more:hover{
       color: var(--alternative-color);
@@ -80,19 +86,23 @@ body{
 }
 
   /* von hier bis -> und oben position relative */
-.blog-box .back {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: var(--primary-color);
-  transform: rotateY(180deg);
-  backface-visibility: hidden;
-  transition: transform 0.6s ease-in-out;
-}
-
-
+  .blog-box .back {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: var(--primary-color);
+    transform: rotateY(180deg);
+    backface-visibility: hidden;
+    transition: transform 0.6s ease-in-out;
+    overflow-y: auto; /* hier wird die Rückseite scrollbar */
+    padding: 20px; /* optional - um Inhalt von der Seite zu verschieben */
+  }
+  
+  .blog-box.flipped .back {
+    transform: rotateY(0deg);
+  }
 
 .blog-box .back p {
   padding: 30px;
