@@ -26,8 +26,8 @@ form.addEventListener("submit", (event) => {
 
 
 const contactform = document.querySelector("form[name='newsletter-form']");
-const alertElement = document.querySelector("#message_alert");
-const success_message = document.getElementById("success-message");
+const alertElement = document.querySelector("#response-message-box");
+const success_message = document.getElementById("alert-message");
 
 form.addEventListener("submit", (event) => {
   event.preventDefault(); // prevent form submission
