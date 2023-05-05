@@ -63,13 +63,7 @@
     display: none;
   }
   
-  .nav > .nav-links {
-    display: flex;
-    float: right;
-    font-size: 18px;
-    padding: auto;
-    justify-content: flex-end;
-  }
+
   
   .nav > .nav-links > a {
     display: inline-block;
@@ -93,15 +87,22 @@
     display: none;
   }
   
-  @media (max-width:11900px) {
+  @media (max-width:1001900px) {
 
     header{
       margin-bottom: 10%;
       
     }
 
-    .nav{
-      z-index: 3;
+    .nav {
+      height: 75px;
+      width: 100%;
+      background-color: #000000;
+      position: fixed;
+      top: 0;
+      margin-bottom: 30%;
+      overflow: visible;
+      z-index: 10000;
     }
 
     .nav > .nav-header > .nav-title {
@@ -134,21 +135,28 @@
       display: block;
       width: 100%;
       background-color: var(--secondary-color);
+      text-align: center;
       height: 0px;
-      transition: all 0.3s ease-in;
+      transition: all 0.8s ease-in;
       overflow-y: hidden;
-      top: 70px;
+      top: 75px;
       left: 0px;
+      z-index: 9999;
     }
-    .nav > .nav-links > a {
-      display: block;
-      width: 100%;
-    }
-    .nav > #nav-check:not(:checked) ~ .nav-links {
-      height: 0px;
-    }
-    .nav > #nav-check:checked ~ .nav-links {
-      height: calc(100vh - 50px);
-      overflow-y: auto;
-    }
+     
+      .nav > .nav-links > a {
+        display: block;
+        width: 100%;
+        padding: 20px 0; /* Anpassen des Abstands zwischen Links, um sie zentriert auszurichten */
+        }
+        .nav > #nav-check:not(:checked) ~ .nav-links {
+          height: 0px;
+          transform: translateY(-100%);
+        }
+        
+        .nav > #nav-check:checked ~ .nav-links {
+          height: auto;
+          transform: translateY(0);
+        }
+        
   }
