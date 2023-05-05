@@ -62,42 +62,43 @@
         <h3 id="contacth3">Kontakt</h3>
       </div>
       <form
-        class="row input-container"
-        method="post"
-        action="https://formspree.io/f/mayzvjga"
-      >
-        <div class="col-xs-12">
-          <div class="styled-input wide">
-            <input type="text" required />
-            <label>Name</label>
-          </div>
-        </div>
-        <div class="col-md-6 col-sm-12">
-          <div class="styled-input">
-            <input type="text" required />
-            <label>Email</label>
-          </div>
-        </div>
-        <div class="col-md-6 col-sm-12">
-          <div class="styled-input" style="float: right">
-            <input type="text" required />
-            <label>Telefonnummer</label>
-          </div>
-        </div>
-        <div class="styled-input wide">
-          <textarea required></textarea>
-          <label>Nachricht</label>
-        </div>
-        <div class="login-box">
-          <button type="submit">
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
-            Senden
-          </button>
-        </div>
-      </form>
+  class="row input-container"
+  method="post"
+  action="https://formspree.io/f/mayzvjga"
+>
+  <div class="col-xs-12">
+    <div class="styled-input wide">
+      <input name="Name" type="text" required />
+      <label>Name</label>
+    </div>
+  </div>
+  <div class="col-md-6 col-sm-12">
+    <div class="styled-input">
+      <input name="Email" type="text" required />
+      <label>Email</label>
+    </div>
+  </div>
+  <div class="col-md-6 col-sm-12">
+    <div class="styled-input" style="float: right">
+      <input name="Telefonnummer" type="text" required />
+      <label>Telefonnummer</label>
+    </div>
+  </div>
+  <div class="styled-input wide">
+    <textarea name="Nachricht" required></textarea>
+    <label>Nachricht</label>
+  </div>
+  <div class="login-box">
+    <button type="submit">
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      Senden
+    </button>
+  </div>
+</form>
+
     </div>
 
     <footer>
