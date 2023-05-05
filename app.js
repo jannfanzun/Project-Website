@@ -25,6 +25,7 @@ form.addEventListener("submit", (event) => {
 
 
 
+
 const contactform = document.querySelector("form[name='newsletter-form']");
 const alertElement = document.querySelector("#response-message-box");
 const success_message = document.getElementById("alert-message");
