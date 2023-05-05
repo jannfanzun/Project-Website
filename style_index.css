@@ -739,10 +739,19 @@ a {
     border-radius: 5px;
   }
 
-  @media only screen and (max-width: 1100px) {
+  @media only screen and (max-width: 1090px) {
     .login-box {
     width: 80%;
     }
+
+    .text-news-ueberschrift{
+      margin-top: 120%;
+    }
+
+    .newletter-box-shadow {
+      margin-bottom: -120%;
+    }
+
     }
     
     @media only screen and (max-width: 900px) {
