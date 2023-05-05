@@ -17,6 +17,7 @@
 
 .container {
   margin-bottom: -40%;
+  margin-top: 14%;
 }
 
 /* ///// inputs /////*/
@@ -214,27 +215,27 @@ font-style: normal;
 
 @media(max-width: 1300px){
   .container {
-    margin-bottom: -45%;
+    margin-bottom: -45% !important;
   }
 }
 
 @media(max-width:1100px){
   .container {
-    margin-bottom: -105%;
+    margin-bottom: -105% !important;
     margin: 20% 8%;
   }
 }
 
 @media(max-width:700px){
   .container {
-    margin-bottom: -120%;
+    margin-bottom: -120% !important;
     margin: 25% 8%;
     
   }
 }
 @media(max-width:550px){
   .container {
-    margin-bottom: -185%;
+    margin-bottom: -185% !important;
     margin: 38% 8%;
 
   }
@@ -242,7 +243,7 @@ font-style: normal;
   
   @media(max-width:420px){
     .container {
-      margin-bottom: -185%;
+      margin-bottom: -185% !important;
       margin: 45% 8%;
     }
   }
