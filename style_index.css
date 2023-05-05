@@ -739,7 +739,7 @@ a {
     border-radius: 5px;
   }
 
-<<<<<<< HEAD
+/* <<<<<<< HEAD */
 
   .hidden{
     display: none;
@@ -769,8 +769,7 @@ a {
    
     margin-bottom: auto;
   }
-  @media only screen and (max-width: 1100px) {
-=======
+/* ======= */
   @media only screen and (max-width: 1090px) {
 
     .login-box {

@@ -5,7 +5,9 @@
   --secondary-color: #212121;
   --text-color: black;
   --grey-color: #868686;
-  --card-bg-color: #c5c9c5;
+  --darkgrey-color: rgb(94, 94, 94);
+  --contact-color: rgb(175, 175, 175);
+  --card-bg-color: #2d2d2d;
   --linkhover-color: #001fe7;
   --line-break-color:  rgb(0, 49, 122);
   --shadow-color:rgba(0, 0, 0, 0.3);
@@ -18,6 +20,8 @@
   --secondary-color: #212121;
   --text-color: white;
   --grey-color: #868686;
+  --darkgrey-color: #999;
+  --contact-color: rgb(0, 0, 0);
   --card-bg-color: #242424;
   --linkhover-color: #00b7ff;
   --line-break-color:rgb(137, 131, 131);
