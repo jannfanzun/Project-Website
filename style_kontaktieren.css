@@ -1,252 +1,248 @@
 
 
-.register-box {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    width: 500px;
-    height: 600px;
-    padding: 40px;
-    transform: translate(-50%, -55%);
-    background: rgba(0,0,0,.9);
-    box-sizing: border-box;
-    box-shadow: 0 15px 25px var(--shadow-color);
-    border-radius: 10px;
-    font-family: poppins;
-    font-weight: 600;
-    z-index: -1;
-    margin-top: 10%;
-    margin-bottom: 100%;
-  }
-  
-  .register-box p:first-child {
-    margin: 0 0 30px;
-    padding: 0;
-    color: #fff;
-    text-align: center;
-    font-size: 1.5rem;
-    font-weight: bold;
-    letter-spacing: 1px;
-  }
-  
-  .register-box .user-box {
-    position: relative;
-  }
-  
-  .register-box .user-box input {
-    width: 100%;
-    padding: 10px 0;
-    font-size: 16px;
-    color: #fff;
-    margin-bottom: 30px;
-    border: none;
-    border-bottom: 1px solid #fff;
-    outline: none;
-    background: transparent;
-  }
+#contacth3{
+  color: var(--text-color);
+  font-size: 2.4rem;
+  font-weight: 300; 
+  text-align: center;  
+}
 
-  textarea {
-    resize: none;
-    height: 100px;
-    width: 400px;
-    margin-top: 36px;
-  }
-  
-  .contact-form input, .contact-form textarea {
-    padding: 10px;
-    border: none;
-    border-radius: 5px;
-    margin-bottom: 20px;
-  }
-  
-  .contact-form input:focus, .contact-form textarea:focus {
-    outline: none;
-    box-shadow: 0 0 5px #ff6384;
-    transform: scale(1.05);
-    transition: transform 0.3s ease-in-out;
-  }
-  
-  .register-box .user-box label {
-    position: absolute;
-    top: 0;
-    left: 0;
-    padding: 10px 0;
-    font-size: 16px;
-    color: #fff;
-    pointer-events: none;
-    transition: .5s;
-  }
-  
-  .register-box .user-box input:focus ~ label,
-  .register-box .user-box input:valid ~ label {
-    top: -20px;
-    left: 0;
-    color: #fff;
-    font-size: 12px;
-  }
-  
-  .register-box form button {
-    position: relative;
-    display: inline-block;
-    padding: 10px 20px;
-    font-weight: bold;
-    color: #fff;
-    font-size: 16px;
-    text-decoration: none;
-    text-transform: uppercase;
-    overflow: hidden;
-    transition: .5s;
-    margin-top: 40px;
-    letter-spacing: 3px;
-    background-color: transparent;
-    border: none;
-  }
+#span-contact{
+  color: var(--span-color);
+  font-size: 25px;
+  margin-top: 5%;
+  text-align: center;
 
-  .register-box button:hover {
-    background: #5f5f5f;
-    color: #ffffff;
-    border-radius: 5px;
-  }
+}
 
-  .register-box button span {
-    position: absolute;
-    display: block;
-  }
+.container {
+  margin-bottom: -40%;
+}
 
-  .register-box button span:nth-child(1) {
-    top: 0;
+/* ///// inputs /////*/
+
+input:focus ~ label, textarea:focus ~ label, input:valid ~ label, textarea:valid ~ label {
+  font-size: 0.75em;
+  color: var(--darkgrey-color);
+  top: -5px;
+  -webkit-transition: all 0.225s ease;
+  transition: all 0.225s ease;
+}
+
+.styled-input {
+  float: left;
+  width: 293px;
+  margin: 1rem 0;
+  position: relative;
+  border-radius: 4px;
+}
+
+@media only screen and (max-width: 768px){
+  .styled-input {
+      width:100%;
+  }
+}
+
+.styled-input label {
+  color: var(--text-color);
+  padding: 1.3rem 30px 1rem 30px;
+  position: absolute;
+  top: 10px;
+  left: 0;
+  -webkit-transition: all 0.25s ease;
+  transition: all 0.25s ease;
+  pointer-events: none;
+}
+
+.styled-input.wide { 
+  width: 650px;
+  max-width: 100%;
+}
+
+input,
+textarea {
+  padding: 30px;
+  border: 0;
+  width: 100%;
+  font-size: 1rem;
+  background-color: var(--contact-color);
+  color: var(--text-color);
+  border-radius: 4px;
+}
+
+input:focus,
+textarea:focus { outline: 0; }
+
+input:focus ~ span,
+textarea:focus ~ span {
+  width: 100%;
+  -webkit-transition: all 0.075s ease;
+  transition: all 0.075s ease;
+}
+
+textarea {
+  width: 100%;
+  min-height: 15em;
+}
+
+.input-container {
+  width: 650px;
+  max-width: 100%;
+  margin: 20px auto 25px auto;
+}
+
+input[type=checkbox] + label {
+color: #ccc;
+font-style: italic;
+} 
+
+input[type=checkbox]:checked + label {
+color: #f00;
+font-style: normal;
+}
+
+.login-box form button {
+  position: relative;
+  display: inline-block;
+  padding: 10px 20px;
+  font-weight: bold;
+  color: white;
+  font-size: 16px;
+  text-decoration: none;
+  text-transform: uppercase;
+  overflow: hidden;
+  transition: .5s;
+  margin-top: 40px;
+  letter-spacing: 3px;
+  border: none;
+  background-color: black;
+  border-radius: 4px;
+  width: 100%;
+  cursor: pointer;
+}
+
+.login-box button:hover {
+  background: #5f5f5f;
+  color: #ffffff;
+  border-radius: 5px;
+}
+
+.login-box button span {
+  position: absolute;
+  display: block;
+}
+
+.login-box button span:nth-child(1) {
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, #fff);
+  animation: btn-anim1 1.5s linear infinite;
+  
+}
+
+@keyframes btn-anim1 {
+  0% {
     left: -100%;
-    width: 100%;
-    height: 2px;
-    background: linear-gradient(90deg, transparent, #fff);
-    animation: btn-anim1 1.5s linear infinite;
   }
 
-  @keyframes btn-anim1 {
-    0% {
-      left: -100%;
-    }
-
-    50%,100% {
-      left: 100%;
-    }
+  50%,100% {
+    left: 100%;
   }
+}
 
-  .register-box button span:nth-child(2) {
+.login-box button span:nth-child(2) {
+  top: -100%;
+  right: 0;
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(180deg, transparent, #fff);
+  animation: btn-anim2 1.5s linear infinite;
+  animation-delay: .375s
+}
+
+@keyframes btn-anim2 {
+  0% {
     top: -100%;
-    right: 0;
-    width: 2px;
-    height: 100%;
-    background: linear-gradient(180deg, transparent, #fff);
-    animation: btn-anim2 1.5s linear infinite;
-    animation-delay: .375s
   }
 
-  @keyframes btn-anim2 {
-    0% {
-      top: -100%;
-    }
-
-    50%,100% {
-      top: 100%;
-    }
+  50%,100% {
+    top: 100%;
   }
+}
 
-  .register-box button span:nth-child(3) {
-    bottom: 0;
+.login-box button span:nth-child(3) {
+  bottom: 0;
+  right: -100%;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(270deg, transparent, #fff);
+  animation: btn-anim3 1.5s linear infinite;
+  animation-delay: .75s
+}
+
+@keyframes btn-anim3 {
+  0% {
     right: -100%;
-    width: 100%;
-    height: 2px;
-    background: linear-gradient(270deg, transparent, #fff);
-    animation: btn-anim3 1.5s linear infinite;
-    animation-delay: .75s
   }
 
-  @keyframes btn-anim3 {
-    0% {
-      right: -100%;
-    }
-
-    50%,100% {
-      right: 100%;
-    }
+  50%,100% {
+    right: 100%;
   }
+}
 
-  .register-box button span:nth-child(4) {
+.login-box button span:nth-child(4) {
+  bottom: -100%;
+  left: 0;
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(360deg, transparent, #fff);
+  animation: btn-anim4 1.5s linear infinite;
+  animation-delay: 1.125s
+}
+
+@keyframes btn-anim4 {
+  0% {
     bottom: -100%;
-    left: 0;
-    width: 2px;
-    height: 100%;
-    background: linear-gradient(360deg, transparent, #fff);
-    animation: btn-anim4 1.5s linear infinite;
-    animation-delay: 1.125s
   }
 
-  @keyframes btn-anim4 {
-    0% {
-      bottom: -100%;
-    }
+  50%,100% {
+    bottom: 100%;
+  }
+}
 
-    50%,100% {
-      bottom: 100%;
-    }
+@media(max-width: 1300px){
+  .container {
+    margin-bottom: -45%;
   }
-  
-  .register-box p:last-child {
-    color: #aaa;
-    font-size: 14px;
-  }
-  
-  .register-box button.button2 {
-    color: #fff;
-    text-decoration: none;
-  }
-  
-  .register-box button.button2:hover {
-    background: transparent;
-    color: #aaa;
-    border-radius: 5px;
-  }
+}
 
-  @media only screen and (max-width: 1100px) {
-    .register-box {
-    width: 70%;
-    transform: translate(-50%, -50%);
-    }
-    }
+@media(max-width:1100px){
+  .container {
+    margin-bottom: -105%;
+    margin: 20% 8%;
+  }
+}
+
+@media(max-width:700px){
+  .container {
+    margin-bottom: -120%;
+    margin: 25% 8%;
     
-    @media only screen and (max-width: 850px) {
-    .register-box {
-    width: 80%;
-    transform: translate(-50%, -45%);
-    }
-    }
-    
-    @media only screen and (max-width: 600px) {
-      .register-box {
-      width: 90%;
-      transform: translate(-50%, -40%);
-      margin-bottom: 20%;
-      margin-top: 10%;
-      }
+  }
+}
+@media(max-width:550px){
+  .container {
+    margin-bottom: -185%;
+    margin: 38% 8%;
 
-      #message{
-        width: 250px;
-        padding-top: 10px;
-      
-      }
-      }
-      
-
-    @media only screen and (max-width: 350px) {
-    .register-box {
-    width: 90%;
-    transform: translate(-50%, -40%);
-    margin-bottom: 20%;
-    margin-top: 30%;
+  }
+}
+  
+  @media(max-width:420px){
+    .container {
+      margin-bottom: -185%;
+      margin: 45% 8%;
     }
-    #message{
-      width: 200px;
-    }
-    
-    }
+  }
