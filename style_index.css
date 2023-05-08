@@ -312,6 +312,7 @@ section.wrapper {
 }   
 
 
+
 /* ---------------------------------angebote------------------ */
 
 #blog {
@@ -452,6 +453,24 @@ a {
   }
 }
 
+@media(max-width:900px){
+  .blog-box{
+      width: 70%;
+  }
+  #blog{
+    margin-top: -30%;
+  }
+}
+
+@media(max-width:800px){
+  .blog-box{
+      width: 70%;
+  }
+  #blog{
+    margin-top: -5%;
+  }
+}
+
 @media(max-width:550px){
   .blog-box{
       margin: 20px 10px;
@@ -464,6 +483,20 @@ a {
   #blog{
       margin-top: 14%;
       padding: 20px;
+  }
+}
+
+@media(max-width:400px){
+
+  #blog{
+      margin-top: 110%;
+  }
+}
+
+@media(max-width:330px){
+
+  #blog{
+      margin-top: 180%;
   }
 }
 
