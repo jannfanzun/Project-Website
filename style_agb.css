@@ -118,6 +118,22 @@
         font-size: 19px;
     }
     }
+    @media(max-width:350px){
+        .agb-box{
+           margin-top: 1750px;
+           margin-bottom: -600%;
+        }
+        .agb-box h1{
+            font-size: 15px;
+        }
+        .agb-box h3{
+            font-size: 14px;
+        }
+        .agb-box p{
+            font-size: 11px;
+        }
+        }
+    
 
     @media(max-width:300px){
         .agb-box{
