@@ -14,15 +14,8 @@
     color: white;
   }
 
-  .nav-hide {
-    transform: translateY(-100%);
-    transition: transform 0.5s;
-  }
   
-  .nav-show {
-    transform: translateY(0%);
-    transition: transform 0.5s;
-  }
+ 
 
   .fa-bars {
     font-size: 30px;
@@ -38,7 +31,7 @@
 
   .nav {
     height: 75px;
-    width: 100%;
+    width: auto;
     background-color: #000000;
     position: fixed;
     top: 0;
@@ -131,11 +124,12 @@
       border-top: 2px solid var(--primary-color);
     }
     .nav > .nav-links {
-      position: fixed;
+      position: absolute;
       display: block;
       width: 100%;
       background-color: var(--secondary-color);
-      text-align: center;
+      text-align: left;
+      padding-left: 2%;
       height: 0px;
       transition: all 0.8s ease-in;
       overflow-y: hidden;
@@ -143,12 +137,18 @@
       left: 0px;
       z-index: 9999;
     }
+    
      
-      .nav > .nav-links > a {
-        display: block;
-        width: 100%;
-        padding: 20px 0; /* Anpassen des Abstands zwischen Links, um sie zentriert auszurichten */
-        }
+    .nav > .nav-links > a {
+      display: block;
+      width: 100%;
+      padding: 20px 0;
+      padding-left: 10px;
+      border-bottom: 2px solid var(--secondary-color);
+      box-sizing: border-box;
+    }
+    
+    
         .nav > #nav-check:not(:checked) ~ .nav-links {
           height: 0px;
           transform: translateY(-100%);

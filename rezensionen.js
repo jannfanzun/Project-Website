@@ -20,14 +20,14 @@ const testimonials = [
     text: "Der Trainings- und Ernährungsplan hat funktioniert und meine Gesundheit verbessert. Das professionelle Team und die effektiven Pläne halfen mir, meine Ziele zu erreichen. Ich empfehle diesen Service sehr."
   },
   {
-    name: "",
-    position:"",
+    name: "Celine Pestana",
+    position:"Lehrling MPA",
     photo: "images/midfrau.jpg",
     text: "Ich denke, dieser Ernährungsplan war eine gute Wahl für mich. Es hat mich auf den richtigen Weg gebracht und Fortschritte gemacht. Ich werde es auf jeden Fall weiterhin nutzen und empfehle es jedem, der nach einem einfachen und effektiven Ernährungsplan sucht."
   },
   {
     name: "Roberto Kreienbühl",
-    position: "Lehrling Toller AG",
+    position: "Lehrling Strassenbauer",
     photo: "images/robrerto.jpg",
     text: "Dank des großartigen Trainingsplans meines Fitness-Teams habe ich in 5 Monaten viele Fortschritte gemacht. Ich bin sehr zufrieden und kann es jedem empfehlen, der nach einem maßgeschneiderten und effektiven Plan sucht. Vielen Dank MDCoaching!"
   }
