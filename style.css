@@ -32,10 +32,14 @@
   box-sizing: border-box;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+
 body {
   margin: 0px;
-  font-family: 'Poppins', sans-serif;
-  font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    
   background-image: radial-gradient(circle at top right,var(--alternative-color) 28%, var(--primary-color) 28%),
                     radial-gradient(circle at bottom left,var(--alternative-color) 15%, var(--primary-color) 15%);
   background-size: 100% 60%;
