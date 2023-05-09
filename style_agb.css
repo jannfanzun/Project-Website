@@ -111,7 +111,7 @@
     }
 
  }
- @media(max-width:450px){
+ @media(max-width:455px){
     .agb-box{
        margin-top: 420%;
        margin-bottom: -600%;
@@ -131,7 +131,7 @@
     }
 
    
-@media(max-width:375px){
+@media(max-width:385px){
     .agb-box{
         margin-top: 550%;
     }
@@ -166,7 +166,7 @@
         }
     
 
-    @media(max-width:300px){
+    @media(max-width:320px){
         .agb-box{
            margin-top: 650%;
            margin-bottom: -800%;
