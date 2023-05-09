@@ -36,14 +36,12 @@ body {
   margin: 0px;
   font-family: 'Poppins', sans-serif;
   font-weight: 600;
-  background-image: radial-gradient(circle at top right,var(--alternative-color) 30%, var(--primary-color) 30%),
-                    radial-gradient(circle at bottom left,var(--alternative-color) 10%, var(--primary-color) 10%);
-  background-size: 100% 70%;
+  background-image: radial-gradient(circle at top right,var(--alternative-color) 28%, var(--primary-color) 28%),
+                    radial-gradient(circle at bottom left,var(--alternative-color) 15%, var(--primary-color) 15%);
+  background-size: 100% 60%;
   background-position: top right, bottom left;
   background-repeat: no-repeat;
-  background-attachment: fixed;
-  font-family: "Poppins", sans-serif;
- 
+  background-attachment: fixed; 
 }
 
 

@@ -168,7 +168,7 @@ ul{
 @media(max-width:1300px) {
   .blog-box{
     margin: 20px 10px;
-    width: 70%;
+    width: 45%;
 }
   .blog-container{
     margin-bottom: -40%;
@@ -178,7 +178,7 @@ ul{
 @media(max-width:1100px){
   .blog-box{
     margin: 20px 10px;
-    width: 70%;
+    width: 40%;
 }
   .blog-container{
     margin-bottom: -120%;
@@ -187,7 +187,7 @@ ul{
 @media(max-width:600px){
   .blog-box{
     margin: 20px 10px;
-    width: 100%;
+    width: 90%;
 }
   .blog-container{
     margin-bottom: -220%;
@@ -196,7 +196,7 @@ ul{
 @media(max-width:550px){
   .blog-box{
     margin: 20px auto; /* Damit die Box horizontal zentriert wird */
-    width: 100%; /* Setzt die Box auf 100% Breite */
+    width: 90%; /* Setzt die Box auf 100% Breite */
   }
   
   .blog-container{
