@@ -1,42 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="style_navbar.css">
-    <link rel="stylesheet" href="style_product.css">
-    <link rel="stylesheet" href="stlye_footer.css">
- 
-    <link rel="icon" type="image/x-icon" href="images/icons8-shelf-unit-64-PhotoRoom.png-PhotoRoom.png">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style_navbar.css" />
+    <link rel="stylesheet" href="style_product.css" />
+    <link rel="stylesheet" href="stlye_footer.css" />
+
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="images/icons8-shelf-unit-64-PhotoRoom.png-PhotoRoom.png"
+    />
     <title>Product</title>
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap"
+      rel="stylesheet"
+    />
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
-
-</head>
-<body>
-  <header>
-    <div class="nav">
-        <input type="checkbox" id="nav-check">
+  </head>
+  <body>
+    <header>
+      <div class="nav">
+        <input type="checkbox" id="nav-check" />
         <div class="nav-header">
           <div class="nav-title">
-            <a class="startlink" href="index.html">MDCoaching</a> 
-
+            <a class="startlink" href="index.html">MDCoaching</a>
           </div>
         </div>
         <div class="nav-btn">
           <label for="nav-check">
-            <i class="fas fa-bars" style="color: white;" ></i>
-
+            <i class="fas fa-bars" style="color: white"></i>
           </label>
         </div>
-        
+
         <div class="nav-links">
           <a href="index.html">Start</a>
           <a href="product.html">Angebote</a>
@@ -45,127 +52,204 @@
           <a href="aboutus.html">Unser Team</a>
           <a href="MDCoachingPrivacyPolici.pdf">Privacy Policy</a>
         </div>
-        <img src="images/moon.png" id="icon" alt="">
+        <img src="images/moon.png" id="icon" alt="" />
       </div>
-</header>
-    
-<section id="blog">
+    </header>
 
-  <div class="blog-heading" data-aos="fade-down" data-aos-duration="1000">
-      <span>Angebote</span>
-      <h3 class="change-color" id="top-angebote">unsere Top Angebote</h3>
-  </div>
+    <section id="blog">
+      <div class="blog-heading" data-aos="fade-down" data-aos-duration="1000">
+        <span>Angebote</span>
+        <h3 class="change-color" id="top-angebote">unsere Top Angebote</h3>
+      </div>
 
-  <div class="blog-container">
+      <div class="blog-container">
+        <div class="blog-box" data-aos="fade-up" data-aos-duration="1000">
+          <div class="front">
+            <div class="blog-img">
+              <img src="images/gymkondi.jpg" alt="" />
+            </div>
+            <div class="blog-text">
+              <span>Bodybuilding Premium Paket</span>
+              <p class="blog-title">1:1 Online Coaching</p>
+              <p>
+                Möchtest du das Beste aus deiner Genetik herausholen und dein
+                Training auf die nächste Stufe bringen?
+              </p>
+              <a class="read-more" onclick="toggleCard(event)">Informieren</a>
+            </div>
+          </div>
+          <div class="back">
+            <p>Was beinhaltet dieses Paket?</p>
 
-    <div class="blog-box"  data-aos="fade-up" data-aos-duration="1000">
-      <div class="front">
-        <div class="blog-img">
-          <img src="images/gymkondi.jpg" alt="">
+            <ul>
+              <li>1. Tägliche Feedbacks zu deinen Trainingsessions</li>
+              <br />
+              <li>
+                2. Individueller Trainingsplan (Anpassungen werden auf Wunsch
+                geändert, sonst alle 8-10 Wochen)
+              </li>
+              <br />
+              <li>
+                3. Individueller Ernährungsplan und Tracking deines
+                Gewichts(wird wöchentlich angepasst)
+              </li>
+              <br />
+              <li>4. Formcheck-Analysen</li>
+              <br />
+              <li>5. Supplementberatung</li>
+              <br />
+              <li>6. Wöchentliche Video-Check-Ins und Posing-Unterricht</li>
+            </ul>
+            <p>
+              <i
+                >Mit all diesen Vorteilen wirst du garantiert Fortschritte
+                machen und deine Ziele erreichen! Und das Beste daran ist, dass
+                unser Angebot unglaublich erschwinglich ist, bei nur 120 Franken
+                pro Monat. Ausserdem kannst du jederzeit nach 2 Monaten
+                kündigen, falls du nicht zufrieden sein solltest. Also worauf
+                wartest du noch? Starte jetzt und erreiche deine Traumfigur!</i
+              >
+            </p>
+            <a class="read-more" onclick="toggleCard(event)">Karte umdrehen</a>
+          </div>
         </div>
-        <div class="blog-text">
-          <span>Bodybuilding Premium Paket</span>
-          <p class="blog-title">1:1 Online Coaching</p>
-          <p>Möchtest du das Beste aus deiner Genetik herausholen und dein Training auf die nächste Stufe bringen?</p>
-          <a class="read-more" onclick="toggleCard(event)">Informieren</a>
+
+        <div class="blog-box" data-aos="fade-up" data-aos-duration="1000">
+          <div class="front">
+            <div class="blog-img">
+              <img src="images/fitnessmuskeln.jpg" alt="" />
+            </div>
+            <div class="blog-text">
+              <span>Gewicht ändern / Gesundheit</span>
+              <p class="blog-title">Ernährungsplan</p>
+              <p>
+                Unser einzigartiger Ernährungsplan ist der Schlüssel, um deine
+                Traumfigur zu erreichen!
+              </p>
+              <a class="read-more" onclick="toggleCard(event)">Informieren</a>
+            </div>
+          </div>
+          <div class="back">
+            <p>Was erhältst Du?</p>
+
+            <ul>
+              <li>
+                1. Individueller Trainingsplan, der speziell auf deine
+                Bedürfnisse und Wünsche zugeschnitten ist und für 10 Wochen
+                läuft.
+              </li>
+              <br />
+              <li>
+                2. Regelmässige Anpassungen deiner Makros alle 2 Wochen, um
+                sicherzustellen, dass du die bestmögliche Nährstoffzufuhr
+                erhältst.
+              </li>
+              <br />
+              <li>
+                3. Feedbacks, um sicherzustellen, dass du immer auf dem
+                richtigen Weg bist.
+              </li>
+              <br />
+              <li>
+                4. Und das Beste daran? Dieses Angebot ist unschlagbar günstig!
+                Für einen einmaligen Betrag von nur 40 Franken erhältst du all
+                diese unglaublichen Vorteile. Bitte beachte jedoch, dass dieses
+                Angebot nicht storniert werden kann und nach 10 Wochen abläuft.
+              </li>
+            </ul>
+            <p>
+              <i
+                >Starte jetzt und erreiche deine Ziele schneller und
+                effektiver als je zuvor!
+              </i>
+            </p>
+            <a class="read-more" onclick="toggleCard(event)">Karte umdrehen</a>
+          </div>
+        </div>
+
+        <div class="blog-box" data-aos="fade-up" data-aos-duration="1000">
+          <div class="front">
+            <div class="blog-img">
+              <img src="images/fraugym.jpg" alt="" />
+            </div>
+            <div class="blog-text">
+              <span>Muskelaufbau / Gesundheit</span>
+              <p class="blog-title">Trainingsplan</p>
+              <p>
+                Mit unserem individuellen Trainingsplan erzielst du in nur 10
+                Wochen enorme Fortschritte und bringst deine Fitness auf ein
+                neues Level!
+              </p>
+              <a class="read-more" onclick="toggleCard(event)">Informieren</a>
+            </div>
+          </div>
+          <div class="back">
+            <p>
+              Unser Trainingsplan ist perfekt für jede Person, unabhängig von
+              Alter, Trainingslevel oder Zielen.
+            </p>
+            <ul>
+              <li>
+                1. Du erhältst einen <b>10-wöchigen</b> individuellen
+                Trainingsplan, der speziell auf deine Bedürfnisse und Wünsche
+                zugeschnitten ist.
+              </li>
+              <br />
+              <li>
+                2. Mit unserem Trainingsplan erzielst du schnell und effektiv
+                einen Muskelaufbau, der dich stolz machen wird.
+              </li>
+              <br />
+              <li>
+                3. Und das Beste daran? Dieses Angebot ist unschlagbar günstig!
+                Für einen einmaligen Betrag von nur <b>50 Franken</b> erhältst
+                du all diese unglaublichen Vorteile. Bitte beachte jedoch, dass
+                dieses Angebot nicht storniert werden kann, aber auf Wunsch
+                verlängert werden kann.
+              </li>
+              <br />
+            </ul>
+            <p>
+              <i>
+                Starte jetzt und erreiche deine Fitness-Ziele schneller und
+                effektiver als je zuvor!</i
+              >
+            </p>
+            <a class="read-more" onclick="toggleCard(event)">Karte umdrehen</a>
+          </div>
         </div>
       </div>
-      <div class="back">
-       <p>Was beinhaltet dieses Paket?</p> 
+    </section>
 
-      <ul>
-        <li> 1. Tägliche Feedbacks zu deinen Trainingsessions</li> <br>
-        <li> 2. Individueller Trainingsplan (Anpassungen werden auf Wunsch geändert, sonst alle 8-10 Wochen)</li> <br>
-        <li> 3. Individueller Ernährungsplan und Tracking deines Gewichts(wird wöchentlich angepasst)</li><br>
-        <li> 4. Formcheck-Analysen</li><br>
-        <li> 5. Supplementberatung</li><br>
-        <li> 6. Wöchentliche Video-Check-Ins und Posing-Unterricht</li>
-      </ul>
-      <p><i>Mit all diesen Vorteilen wirst du garantiert Fortschritte machen und deine Ziele erreichen! Und das Beste daran ist, dass unser Angebot unglaublich erschwinglich ist, bei nur 120 Franken pro Monat. Ausserdem kannst du jederzeit nach 2 Monaten kündigen, falls du nicht zufrieden sein solltest. Also worauf wartest du noch? Starte jetzt und erreiche deine Traumfigur!</i></p>  
-                <a class="read-more" onclick="toggleCard(event)">Karte umdrehen</a>
+    <footer>
+      <div class="footer-content">
+        <h3>MDC</h3>
+        <p>
+          <strong>Gemeinsam stark!</strong> Dein Weg zu Fitness und Wohlbefinden
+          mit unserem dynamischen Coaching-Team!
+        </p>
       </div>
-    </div>
-
-    <div class="blog-box" data-aos="fade-up" data-aos-duration="1000">
-      <div class="front">
-        <div class="blog-img">
-          <img src="images/fitnessmuskeln.jpg" alt="">
-        </div>
-        <div class="blog-text">
-          <span>Gewicht ändern / Gesundheit</span>
-          <p class="blog-title">Ernährungsplan</p>
-          <p>Unser einzigartiger Ernährungsplan ist der Schlüssel, um deine Traumfigur zu erreichen!</p>
-          <a class="read-more" onclick="toggleCard(event)">Informieren</a>
+      <div class="footer-bottom">
+        <p>copyright © Benz, Fanzun</p>
+        <div class="footer-menu">
+          <ul class="f-menu">
+            <li>
+              <a href="https://www.instagram.com/mdcoaching.ch/">Instagram</a>
+            </li>
+            <li><a href="aboutus.html">Über uns</a></li>
+            <li><a href="contact.html">Kontakt</a></li>
+            <li><a href="MDCoachingPrivacyPolici.pdf">Privacy Policy</a></li>
+          </ul>
         </div>
       </div>
-      <div class="back">
-       <p>Was erhältst Du?</p>
-
-       <ul>
-        <li>1. Individueller Trainingsplan, der speziell auf deine Bedürfnisse und Wünsche zugeschnitten ist und für 10 Wochen läuft.</li><br> 
-        <li>2. Regelmässige Anpassungen deiner Makros alle 2 Wochen, um sicherzustellen, dass du die bestmögliche Nährstoffzufuhr erhältst.</li><br>
-        <li>3. Feedbacks, um sicherzustellen, dass du immer auf dem richtigen Weg bist.</li><br>
-        <li>4. Und das Beste daran? Dieses Angebot ist unschlagbar günstig! Für einen einmaligen Betrag von nur 40 Franken erhältst du all diese unglaublichen Vorteile. Bitte beachte jedoch, dass dieses Angebot nicht storniert werden kann und nach 10 Wochen abläuft.</li>
-        </ul>
-       <p><i>Starte jetzt und erreiche deine Ziele schneller und effektiver als je zuvor!   </i></p>      
-        <a class="read-more" onclick="toggleCard(event)">Karte umdrehen</a>
-      </div>
-    </div>
-
-    <div class="blog-box" data-aos="fade-up" data-aos-duration="1000">
-      <div class="front">
-        <div class="blog-img">
-          <img src="images/fraugym.jpg" alt="">
-        </div>
-        <div class="blog-text">
-          <span>Muskelaufbau / Gesundheit</span>
-          <p class="blog-title">Trainingsplan</p>
-          <p>Mit unserem individuellen Trainingsplan erzielst du in nur 10 Wochen enorme Fortschritte und bringst deine Fitness auf ein neues Level!</p>
-          <a class="read-more" onclick="toggleCard(event)">Informieren</a>
-        </div>
-      </div>
-      <div class="back">
-       <p>Unser Trainingsplan ist perfekt für jede Person, unabhängig von Alter, Trainingslevel oder Zielen.</p> 
-       <ul>
-        <li>1. Du erhältst einen <b>10-wöchigen</b> individuellen Trainingsplan, der speziell auf deine Bedürfnisse und Wünsche zugeschnitten ist.</li> <br>
-        <li>2. Mit unserem Trainingsplan erzielst du schnell und effektiv einen Muskelaufbau, der dich stolz machen wird.</li> <br>
-        <li>3. Und das Beste daran? Dieses Angebot ist unschlagbar günstig! Für einen einmaligen Betrag von nur <b>50 Franken</b> erhältst du all diese unglaublichen Vorteile. Bitte beachte jedoch, dass dieses Angebot nicht storniert werden kann, aber auf Wunsch verlängert werden kann.</li> <br>
-      </ul>
-      <p><i> Starte jetzt und erreiche deine Fitness-Ziele schneller und effektiver als je zuvor!</i>
-      </p>
-        <a class="read-more" onclick="toggleCard(event)">Karte umdrehen</a>
-      </div>
-    </div>
-            
-  </div>
-
-</section>
-
-<footer>
-  <div class="footer-content">
-      <h3>MDC</h3>
-      <p>Bei MDCoaching wissen wir, dass zwei Köpfe besser sind als einer. Mit unserem dynamischen Duo an Coaches erhalten Sie doppelte Unterstützung auf Ihrem Weg zu Ihren Fitnesszielen.</p>
-
-  </div>
-  <div class="footer-bottom">
-      <p>copyright © <a href="https://www.instagram.com/mdcoaching.ch/">Instagram - MDCoaching </a></p>
-              <div class="footer-menu">
-                <ul class="f-menu">
-                  <li><a href="aboutus.html">Über uns</a></li>
-                  <li><a href="contact.html">Kontakt</a></li>
-                  <li><a href="MDCoachingPrivacyPolici.pdf">Privacy Policy</a></li>
-                </ul>
-              </div>
-  </div>
-
-</footer>
-<script src="themetoggle.js"></script>
-<script src="flippingCard.js"></script>
-<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    </footer>
+    <script src="themetoggle.js"></script>
+    <script src="flippingCard.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="navhide.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
       AOS.init();
     </script>
-</body>
+  </body>
 </html>
