@@ -9,26 +9,26 @@ const testimonials = [
     name: "Elias Brasser",
     position: "Co-Founder Solunion.app",
     photo:
-      "images/eliasbrasser.jpeg",
+      "images/eliasbrasser-min.jpeg",
     text:
     "Bei MDC habe ich kontinuierliche Muskelzunahme erlebt. Das Trainingsprogramm ist reibungslos und gut organisiert. Ich bereue meine Entscheidung für MDC nicht und bin dankbar für die Unterstützung auf meinem Fitnessweg."
   },
   {
     name: "Fabio Murari",
     position: "Mitarbeiter EKS",
-    photo: "images/murari.jpg",
+    photo: "images/murari-min.jpg",
     text: "Der Trainings- und Ernährungsplan hat funktioniert und meine Gesundheit verbessert. Das professionelle Team und die effektiven Pläne halfen mir, meine Ziele zu erreichen. Ich empfehle diesen Service sehr."
   },
   {
     name: "Celine Pestana",
     position:"Lehrling MPA",
-    photo: "images/midfrau.jpg",
+    photo: "images/midfrau-min.jpg",
     text: "Ich denke, dieser Ernährungsplan war eine gute Wahl für mich. Es hat mich auf den richtigen Weg gebracht und Fortschritte gemacht. Ich werde es auf jeden Fall weiterhin nutzen und empfehle es jedem, der nach einem einfachen und effektiven Ernährungsplan sucht."
   },
   {
     name: "Roberto Kreienbühl",
     position: "Lehrling Strassenbauer",
-    photo: "images/robrerto.jpg",
+    photo: "images/robrerto-min.jpg",
     text: "Dank des grossartigen Trainingsplans meines Fitness-Teams habe ich in 5 Monaten viele Fortschritte gemacht. Ich bin sehr zufrieden und kann es jedem empfehlen, der nach einem massgeschneiderten und effektiven Plan sucht. Vielen Dank MDCoaching!"
   }
     
