@@ -26,7 +26,9 @@ function updateTheme(theme) {
 
  
 }else{
-  theme = "light"
+  updateTheme("light");
+  localStorage.setItem("theme", "light");
+
 }
   
   
