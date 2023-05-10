@@ -747,7 +747,7 @@ a {
 
   } */
   #response-message-box{
-    background-color: rgb(231, 238, 231);
+    color: #f3f3f3;
     padding-bottom: 10px;
     display: flex;
     justify-content: center;
