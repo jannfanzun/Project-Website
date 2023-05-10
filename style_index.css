@@ -735,19 +735,7 @@ a {
   .hidden{
     display: none;
   }
-/* 
-  .text-alert-red{
 
-  }
-  .border-alert-red{
-
-  }
-  .text-alert-green{
-
-  }
-  .border-alert-red{
-
-  } */
   #response-message-box{
     color: #f3f3f3;
     padding-bottom: 10px;
