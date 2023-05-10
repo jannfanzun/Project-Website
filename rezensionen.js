@@ -29,7 +29,7 @@ const testimonials = [
     name: "Roberto Kreienbühl",
     position: "Lehrling Strassenbauer",
     photo: "images/robrerto.jpg",
-    text: "Dank des großartigen Trainingsplans meines Fitness-Teams habe ich in 5 Monaten viele Fortschritte gemacht. Ich bin sehr zufrieden und kann es jedem empfehlen, der nach einem maßgeschneiderten und effektiven Plan sucht. Vielen Dank MDCoaching!"
+    text: "Dank des grossartigen Trainingsplans meines Fitness-Teams habe ich in 5 Monaten viele Fortschritte gemacht. Ich bin sehr zufrieden und kann es jedem empfehlen, der nach einem massgeschneiderten und effektiven Plan sucht. Vielen Dank MDCoaching!"
   }
     
 
