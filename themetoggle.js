@@ -1,3 +1,5 @@
+const theme = localStorage.getItem("theme");
+
 function updateTheme(theme) {
   document.body.className = theme;
   const changeColors = document.querySelectorAll('.change-color');
@@ -13,9 +15,7 @@ function updateTheme(theme) {
 
  
   const moonIcon = document.getElementById("icon");
-  
-  if (localStorage.getItem("theme")) {
-    const theme = localStorage.getItem("theme");
+  if (theme) {
     updateTheme(theme);
     if (theme === "light") {
       moonIcon.src = "images/moon.png";
@@ -23,7 +23,12 @@ function updateTheme(theme) {
       moonIcon.src = "images/sun.png";
   
     }
-  }
+
+ 
+}else{
+  theme = "light"
+}
+  
   
   moonIcon.addEventListener("click", function () {
     const theme = localStorage.getItem("theme");
