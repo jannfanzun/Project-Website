@@ -13,11 +13,11 @@ form.addEventListener("submit", (event) => {
 
     .then((response) => {
       form.reset();
-      alert("Success");
+      
 
     })
     .catch((error) => {
-        alert("Failed");
+       
     });
 });
 
