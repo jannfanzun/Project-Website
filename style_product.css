@@ -35,8 +35,8 @@ ul{
 
 
 
-  .blog-box.flipped .back .read-more:hover{
-      color: var(--alternative-color);
+.blog-box.flipped .back .read-more:hover{
+  color: var(--alternative-color);
       }
 
 .blog-heading span{
