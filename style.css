@@ -42,7 +42,7 @@ body {
     
   background-image: radial-gradient(circle at top right,var(--alternative-color) 28%, var(--primary-color) 28%),
                     radial-gradient(circle at bottom left,var(--alternative-color) 15%, var(--primary-color) 15%);
-  background-size: 100% 60%;
+  background-size: 100% 66%;
   background-position: top right, bottom left;
   background-repeat: no-repeat;
   background-attachment: fixed; 
