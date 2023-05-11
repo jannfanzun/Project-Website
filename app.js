@@ -44,7 +44,7 @@ form.addEventListener("submit", (event) => {
       alertElement.classList.remove("hidden");
       alertElement.classList.remove("text-alert-red", "border-alert-red");
       alertElement.classList.add("text-alert-green", "border-alert-green");
-      success_message.innerText = "Die Anmeldung wurde erfolgreich durchgeführt!";
+      success_message.innerText = "Du wurdest erfolgreich registriert!";
       // reset the form
       contactform.reset();
     })
