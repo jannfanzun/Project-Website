@@ -26,13 +26,25 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
     />
-    <!-- <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"> -->
 
     <!-- ====  REMIXICON CDN ==== -->
     <link
       href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css"
       rel="stylesheet"
     />
+    <style>
+      /* ... deine vorhandenen CSS-Regeln ... */
+    
+      /* Füge die folgenden CSS-Regeln hinzu */
+      .fade-in {
+        opacity: 0;
+      }
+      .fade-in.animated {
+        opacity: 1;
+        transition: opacity 2.5s ease;
+      }
+    </style>
+    
   </head>
   <body>
     <!-- ==== HEADER ==== -->
@@ -63,6 +75,7 @@
     </header>
 
     <section class="wrapper">
+      <div class="front animate-on-scroll fade-in">
       <div class="container">
         <div class="grid-cols-2">
           <div class="grid-item-1">
@@ -95,6 +108,7 @@
           </div>
         </div>
       </div>
+    </div>
     </section>
 
     <section id="blog">
@@ -120,14 +134,12 @@
       </div>
     </section>
 
-    <div class="neues-div" data-aos="fade-right" data-aos-duration="1000">
+    <div class="neues-div">
       Was sagen unsere Kunden?
     </div>
 
     <div
       class="testimonial-container"
-      data-aos="fade-left"
-      data-aos-duration="1000"
     >
       <div class="progress-bar"></div>
       <div class="fas fa-quote-left fa-quote"></div>
@@ -156,15 +168,11 @@
     <div class="newletter-box-shadow">
       <div
         class="text-news-ueberschrift"
-        data-aos="fade-down"
-        data-aos-duration="1000"
       >
         Unser Newsletter
       </div>
       <div
         class="container-news"
-        data-aos="fade-right"
-        data-aos-duration="1000"
       >
         <div class="login-box">
           <p>Newsletter</p>
@@ -235,9 +243,6 @@
         </div>
       </div>
     </footer>
-
-    <!-- ==== ANIMATE ON SCROLL JS CDN -->
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <!-- ==== GSAP CDN ==== -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.min.js"></script>
     <!-- ==== SCRIPT.JS ==== -->
@@ -248,7 +253,33 @@
     <script src="navhide.js"></script>
     <script src="app.js"></script>
     <script>
-      AOS.init();
+      // Animationsfunktion für das Scrollen
+      function animateOnScroll() {
+        const elements = document.querySelectorAll('.animate-on-scroll');
+    
+        elements.forEach((element) => {
+          if (isElementInViewport(element)) {
+            element.classList.add('animated');
+          }
+        });
+      }
+    
+      // Funktion zum Überprüfen, ob ein Element im sichtbaren Bereich des Viewports liegt
+      function isElementInViewport(element) {
+        const rect = element.getBoundingClientRect();
+        return (
+          rect.top >= 0 &&
+          rect.left >= 0 &&
+          rect.bottom <=
+            (window.innerHeight || document.documentElement.clientHeight) &&
+          rect.right <= (window.innerWidth || document.documentElement.clientWidth)
+        );
+      }
+    
+      // Überprüfen der Elemente beim Scrollen
+      window.addEventListener('scroll', animateOnScroll);
+      animateOnScroll(); // Führe die Animation beim Laden der Seite aus
     </script>
+    
   </body>
 </html>
