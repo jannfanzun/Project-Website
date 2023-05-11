@@ -21,6 +21,7 @@
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap"
     />
+    <link rel="stylesheet" href="fade.css">
 
     <link
       rel="stylesheet"
@@ -32,18 +33,6 @@
       href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css"
       rel="stylesheet"
     />
-    <style>
-      /* ... deine vorhandenen CSS-Regeln ... */
-    
-      /* Füge die folgenden CSS-Regeln hinzu */
-      .fade-in {
-        opacity: 0;
-      }
-      .fade-in.animated {
-        opacity: 1;
-        transition: opacity 2.5s ease;
-      }
-    </style>
     
   </head>
   <body>
@@ -75,10 +64,10 @@
     </header>
 
     <section class="wrapper">
-      <div class="front animate-on-scroll fade-in">
       <div class="container">
         <div class="grid-cols-2">
           <div class="grid-item-1">
+            <div class="front animate-on-scroll fade-in">
             <h1 class="main-heading">
               Herzlich Wilkommen bei <span>MDCoaching</span>.
             </h1>
@@ -96,6 +85,7 @@
                   Kontakt
                 </a>
             </div>
+            </div>
           </div>
           <div class="grid-item-2">
             <div class="team_img_wrapper">
@@ -106,15 +96,19 @@
               />
             </div>
           </div>
-        </div>
+          </div>
       </div>
     </div>
     </section>
 
     <section id="blog">
       <div class="blog-heading">
+        <div class="front animate-on-scroll fade-in2">
         <span>Angebot des Monats</span>
+      </div>
+      <div class="front animate-on-scroll fade-in">
         <h3 class="change-color" id="top-angebote">unser Top Angebot!</h3>
+      </div>
       </div>
       <div class="blog-box">
         <div class="front">
@@ -131,16 +125,17 @@
             <a class="read-more" href="product.html">zum Angebot</a>
           </div>
         </div>
-      </div>
+        </div>
     </section>
 
     <div class="neues-div">
+      <div class="front animate-on-scroll fade-in">
       Was sagen unsere Kunden?
+      </div>
     </div>
 
-    <div
-      class="testimonial-container"
-    >
+    <div class="testimonial-container">
+      <div class="front animate-on-scroll fade-in2">
       <div class="progress-bar"></div>
       <div class="fas fa-quote-left fa-quote"></div>
       <div class="fas fa-quote-right fa-quote"></div>
@@ -163,18 +158,20 @@
           </p>
         </div>
       </div>
+      </div>
     </div>
 
     <div class="newletter-box-shadow">
-      <div
-        class="text-news-ueberschrift"
-      >
+      <div class="text-news-ueberschrift">
+        <div class="front animate-on-scroll fade-in3">
         Unser Newsletter
+      </div>
       </div>
       <div
         class="container-news"
       >
         <div class="login-box">
+          <div class="front animate-on-scroll fade-in2">
           <p>Newsletter</p>
           <form
             name="newsletter-form"
@@ -203,10 +200,12 @@
               <p></p>
             </div>
           </div>
+          </div>
         </div>
 
         <div class="newsletter-box">
           <div class="newsletter-text">
+            <div class="front animate-on-scroll fade-in4">
             <p>
               Bleib auf dem neuesten Stand und verpasse keine Neuigkeiten! Unser
               Newsletter bietet exklusive Einblicke und hält dich über wichtige
@@ -252,34 +251,6 @@
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="navhide.js"></script>
     <script src="app.js"></script>
-    <script>
-      // Animationsfunktion für das Scrollen
-      function animateOnScroll() {
-        const elements = document.querySelectorAll('.animate-on-scroll');
-    
-        elements.forEach((element) => {
-          if (isElementInViewport(element)) {
-            element.classList.add('animated');
-          }
-        });
-      }
-    
-      // Funktion zum Überprüfen, ob ein Element im sichtbaren Bereich des Viewports liegt
-      function isElementInViewport(element) {
-        const rect = element.getBoundingClientRect();
-        return (
-          rect.top >= 0 &&
-          rect.left >= 0 &&
-          rect.bottom <=
-            (window.innerHeight || document.documentElement.clientHeight) &&
-          rect.right <= (window.innerWidth || document.documentElement.clientWidth)
-        );
-      }
-    
-      // Überprüfen der Elemente beim Scrollen
-      window.addEventListener('scroll', animateOnScroll);
-      animateOnScroll(); // Führe die Animation beim Laden der Seite aus
-    </script>
-    
+    <script src="fade.js"></script>
   </body>
 </html>

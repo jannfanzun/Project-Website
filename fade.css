@@ -19,5 +19,13 @@
   }
   .fade-in3.animated {
     opacity: 1;
-    transition: opacity 1s ease;
+    transition: opacity 2s ease;
+  }
+
+  .fade-in4 {
+    opacity: 0;
+  }
+  .fade-in4.animated {
+    opacity: 1;
+    transition: opacity 3s ease;
   }

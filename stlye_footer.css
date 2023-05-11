@@ -83,14 +83,14 @@ display: block;
 @media (max-width: 1100px) {
     footer{
         margin-top: 130%;
-        z-index: -1;
+        z-index: 1;
     }
 }
 
 @media (max-width: 850px) {
     footer{
         margin-top: 150%;
-        z-index: -1;
+        z-index: 1;
         
     }
 }
@@ -99,7 +99,7 @@ display: block;
     footer{
         margin-top: 230%;
         padding-top: 20px;
-        z-index: -1;
+        z-index: 1;
     }
     .footer-content{
         margin-bottom: 40px;
@@ -120,7 +120,7 @@ display: block;
     footer{
         margin-top: 250%;
         padding-top: 20px;
-        z-index: -1;
+        z-index: 1;
     }
     .footer-content{
         margin-bottom: 40px;
