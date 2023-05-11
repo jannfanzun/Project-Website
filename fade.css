@@ -1,0 +1,23 @@
+.fade-in {
+    opacity: 0;
+  }
+  .fade-in.animated {
+    opacity: 1;
+    transition: opacity 2.5s ease;
+  }
+
+  .fade-in2 {
+    opacity: 0;
+  }
+  .fade-in2.animated {
+    opacity: 1;
+    transition: opacity 1s ease;
+  }
+
+  .fade-in3 {
+    opacity: 0;
+  }
+  .fade-in3.animated {
+    opacity: 1;
+    transition: opacity 1s ease;
+  }

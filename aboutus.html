@@ -19,13 +19,13 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
     />
+    <link rel="stylesheet" href="fade.css">
 
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap"
       rel="stylesheet"
     />
-    <!-- <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" /> -->
   </head>
   <body>
     <header>
@@ -54,11 +54,12 @@
       </div>
     </header>
     <div class="wrapper">
-      <h1 class="heading-about" data-aos="fade-down" data-aos-duration="1000">
+      <h1 class="heading-about">
         Unser Team
       </h1>
       <div class="team">
-        <div class="team_member" data-aos="fade-right" data-aos-duration="1000">
+        <div class="team_member">
+          <div class="front animate-on-scroll fade-in">
           <div class="team_img">
             <img src="images/noahbenzportrait.jpg" alt="Team_image" />
           </div>
@@ -73,8 +74,10 @@
             Bereich Fitness bin ich stets bereit, anderen mit Rat und Tat zur
             Seite zu stehen.
           </p>
+          </div>
         </div>
-        <div class="team_member" data-aos="fade-left" data-aos-duration="1000">
+        <div class="team_member">
+          <div class="front animate-on-scroll fade-in">
           <div class="team_img">
             <img
               src="images/Jann-Fanzun-1-scaled-e1664368839739 (1).jpg"
@@ -94,6 +97,7 @@
             oft in der Natur, wo ich gerne wandere oder jogge. Kurz gesagt, ich
             liebe es, aktiv zu sein und meine Zeit sinnvoll zu nutzen.
           </p>
+        </div>
         </div>
       </div>
     </div>
@@ -123,9 +127,6 @@
     <script src="themetoggle.js"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="navhide.js"></script>
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script>
-      AOS.init();
-    </script>
+    <script src="fade.js"></script>    
   </body>
 </html>
