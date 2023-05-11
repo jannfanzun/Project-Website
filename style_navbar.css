@@ -12,7 +12,7 @@
  
 
   .fa-bars {
-    font-size: 30px;
+    font-size: 25px;
     color: white;
 
  }
@@ -39,7 +39,7 @@
   
   .nav > .nav-header > .nav-title {
     display: inline-block;
-    font-size: 22px;
+    font-size: 20px;
     color: #fff;
     padding: 24px 10px 24px 10px;
     text-decoration: unset;
@@ -78,14 +78,15 @@
 
     header{
       margin-bottom: 10%;
-      
     }
 
     .nav {
-      height: 75px;
+      height: 50px;
       width: 100%;
       background-color: #000000;
       position: fixed;
+      display: flex;
+      align-items: center;
       top: 0;
       margin-bottom: 30%;
       overflow: visible;
@@ -100,7 +101,6 @@
       display: inline-block;
       position: absolute;
       right: 0px;
-      top: 10px;
     }
     .nav > .nav-btn > label {
       display: inline-block;
@@ -123,11 +123,11 @@
       width: 100%;
       background-color: var(--secondary-color);
       text-align: left;
-      padding-left: 2%;
+      padding-left: 1%;
       height: 0px;
-      transition: all 0.8s ease-in;
+      transition: all 1s ease-in;
       overflow-y: hidden;
-      top: 75px;
+      top: 50px;
       left: 0px;
       z-index: 9999;
     }
@@ -136,7 +136,7 @@
     .nav > .nav-links > a {
       display: block;
       width: 100%;
-      padding: 20px 0;
+      padding: 15px 0;
       padding-left: 10px;
       border-bottom: 2px solid var(--secondary-color);
       box-sizing: border-box;
