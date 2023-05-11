@@ -22,7 +22,7 @@ const testimonials = [
   {
     name: "Celine Pestana",
     position:"Lehrling MPA",
-    photo: "images/midfrau-min.jpg",
+    photo: "images/celine.jpg",
     text: "Ich denke, dieser Ernährungsplan war eine gute Wahl für mich. Es hat mich auf den richtigen Weg gebracht und Fortschritte gemacht. Ich werde es auf jeden Fall weiterhin nutzen und empfehle es jedem, der nach einem einfachen und effektiven Ernährungsplan sucht."
   },
   {

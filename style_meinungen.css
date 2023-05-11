@@ -168,7 +168,7 @@ ul{
 @media(max-width:1300px) {
     .blog-box{
         margin: 20px 10px;
-        width: 70%;
+        width: 45%;
     }
     .blog-container{
         margin-bottom: -40%;
@@ -188,7 +188,7 @@ ul{
 @media(max-width:600px){
     .blog-box{
         margin: 20px 10px;
-        width: 100%;
+        width: 90%;
     }
    
     .blog-container{
@@ -200,7 +200,7 @@ ul{
 @media(max-width:550px){
     .blog-box{
         margin: 20px 10px;
-        width: 100%;
+        width: 90%;
     }
     .blog-container{
         margin-bottom: -240%;
