@@ -129,7 +129,7 @@ section.wrapper {
 }
 .view_more_btn:hover {
   transform: scale(1.1);
-  border: 2px solid;
+  border: 2px solid var(--text-color);
   background-color: var(--alternative-color);
   color: rgb(255, 255, 255);
   cursor: pointer;
