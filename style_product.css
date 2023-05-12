@@ -107,23 +107,57 @@ ul{
   transform: rotateY(0deg);
 }
 
-.read-more {
-  margin-top: auto;
-  margin-bottom: 0;
+.links-back {
+  display: flex; /* Damit die Elemente innerhalb des Containers in einer Zeile angeordnet werden */
+  justify-content: space-between; /* Um das Symbol ganz rechts und den Text ganz links anzuordnen */
+  align-items: center; /* Damit die Elemente vertikal zentriert werden */
+}
+
+.read-more {  margin-bottom: 0;
   color: var(--text-color);
   font-size: 18px;
   font-weight: 500;
   cursor: pointer;
 }
 
-.read-more1 {
-  margin-top: auto;
+.shop-icon {
   margin-bottom: 0;
   color: var(--text-color);
-  font-size: 18px;
-  font-weight: 500;
+  width: 40px; /* Gewünschte Breite des Icons */
+  height: auto; /* Höhe auf "auto" setzen, um das Seitenverhältnis beizubehalten */
+  font-weight: 800;
   cursor: pointer;
-  margin-left: 40%;
+}
+
+.shop-icon-container {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltip {
+  position: absolute;
+  top: 50%;
+  width: auto;
+  right: 100%;
+  transform: translate(-100%, -50%);
+  background-color: transparent;
+  color: var(--text-color);
+  font-size: 14px;
+  opacity: 0;
+  font-weight: 700;
+  pointer-events: none;
+  transition: opacity 0.3s ease;
+}
+
+.shop-icon-container:hover .tooltip {
+  opacity: 1;
+}
+
+
+
+
+.hidden{
+  display: none;
 }
 
 /* hier karte umdrehen */
