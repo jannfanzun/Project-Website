@@ -138,7 +138,7 @@ ul{
   position: absolute;
   top: 50%;
   width: auto;
-  right: 100%;
+  right: 0;
   transform: translate(-100%, -50%);
   background-color: transparent;
   color: var(--text-color);
