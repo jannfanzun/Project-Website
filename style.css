@@ -15,7 +15,7 @@
 
 :root, .dark {
   --primary-color: #303332;
-  --alternative-color: #0e100e;
+  --alternative-color: #474747;
   --secondary-color: #212121;
   --text-color: white;
   --grey-color: #868686;
@@ -50,7 +50,7 @@ body {
 
 
 #icon {
-  width: 30px;
+  width: 25px;
   cursor: pointer;
   transition: transform 0.7s ease-out;
 }
