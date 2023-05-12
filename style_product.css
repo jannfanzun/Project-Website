@@ -116,6 +116,16 @@ ul{
   cursor: pointer;
 }
 
+.read-more1 {
+  margin-top: auto;
+  margin-bottom: 0;
+  color: var(--text-color);
+  font-size: 18px;
+  font-weight: 500;
+  cursor: pointer;
+  margin-left: 40%;
+}
+
 /* hier karte umdrehen */
 
 .blog-img img{
