@@ -829,6 +829,12 @@ a {
       
   
     }
+
+    @media only screen and (max-width: 600px) {
+      .newletter-box-shadow {
+        margin-bottom: -190%;
+      }
+    }
     
     @media only screen and (max-width: 450px) {
 
