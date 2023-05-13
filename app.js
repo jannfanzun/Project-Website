@@ -1,6 +1,6 @@
-const form = document.querySelector("form[name='newsletter-form']");
-const alertElement = document.querySelector("#response-message-box");
-const success_message = document.getElementById("alert-message");
+const form = document.querySelector("form[name='contact-form']");
+const alertElement = document.querySelector("#alertContainer");
+const success_message = document.getElementById("alertMessage");
 
 form.addEventListener("submit", (event) => {
   event.preventDefault(); // prevent form submission
@@ -12,7 +12,6 @@ form.addEventListener("submit", (event) => {
     },
   })
     .then((response) => {
-      console.log(response);
       // show success message
       alertElement.classList.remove("hidden");
       success_message.classList.remove("hidden");
@@ -21,7 +20,6 @@ form.addEventListener("submit", (event) => {
       form.reset();
     })
     .catch((error) => {
-      console.log(error);
       alertElement.classList.remove("hidden");
       success_message.innerText =
         "Hoppla, da ist etwas schiefgelaufen, bitte versuche es erneut.";
