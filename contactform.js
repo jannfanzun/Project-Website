@@ -1,3 +1,4 @@
+// Contact Form
 const form = document.querySelector("form[name='contact-form']");
 const alertElement = document.querySelector("#alertContainer");
 const success_message = document.getElementById("alertMessage");
@@ -25,4 +26,5 @@ form.addEventListener("submit", (event) => {
         "Hoppla, da ist etwas schiefgelaufen, bitte versuche es erneut.";
     });
 });
-onsubmit="clear_form()"
+
+
