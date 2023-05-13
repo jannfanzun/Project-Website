@@ -749,6 +749,10 @@ a {
    
     margin-bottom: auto;
   }
+  .text-alert-green{
+    color: green;
+  }
+ 
 /* ======= */
   @media only screen and (max-width: 1090px) {
 
