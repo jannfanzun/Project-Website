@@ -12,18 +12,17 @@ form.addEventListener("submit", (event) => {
     },
   })
     .then((response) => {
+      console.log(response);
       // show success message
       alertElement.classList.remove("hidden");
-      alertElement.classList.remove("hidden");
-      alertElement.classList.add("text-alert-green", "border-alert-green");
+      success_message.classList.remove("hidden");
       success_message.innerText = "Deine Nachricht wurde erfolgreich gesendet!";
       // reset the form
       form.reset();
     })
     .catch((error) => {
+      console.log(error);
       alertElement.classList.remove("hidden");
-      alertElement.classList.remove("text-alert-green", "border-alert-green");
-      alertElement.classList.add("text-alert-red", "border-alert-red");
       success_message.innerText =
         "Hoppla, da ist etwas schiefgelaufen, bitte versuche es erneut.";
     });
