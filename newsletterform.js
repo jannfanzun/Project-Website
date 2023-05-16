@@ -16,7 +16,7 @@ newsletterform.addEventListener("submit", (event) => {
       // show success message
       newsletterAlertElement.classList.remove("hidden");
       newsletterSuccessMessage.classList.remove("hidden");
-      newsletterSuccessMessage.innerText = "Deine Nachricht wurde erfolgreich gesendet!";
+      newsletterSuccessMessage.innerText = "Anmeldung erfolgreich!";
       // reset the form
       newsletterform.reset();
     })
