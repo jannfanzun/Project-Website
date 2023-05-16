@@ -332,44 +332,50 @@ iframe {
 
 @media(max-width:1000px){
   #advertisement {
-    margin-top: -40%;
+    margin-top: -40% !important;
   }
 }
 
 @media(max-width:900px){
 
   #advertisement{
-    margin-top: -40%;
+    margin-top: 2%!important;
   }
 }
 
 @media(max-width:800px){
   #advertisement{
-    margin-top: -50%;
+    margin-top: 0% !important;
   }
 }
 
 @media(max-width:550px){
 
   #advertisement{
-      margin-top: -70%;
+      margin-top: 70%!important;
   }
 }
 
 @media(max-width:400px){
 
   #advertisement{
-      margin-top: -90%;
+    margin-top: 80% !important;
   }
 }
 
-@media(max-width:330px){
+@media(max-width:380px){
 
   #advertisement{
-      margin-top: -100%;
+      margin-top: 120%!important;
   }
 }
 
+@media(max-width:350px){
+
+  #advertisement{
+      margin-top: 180%!important;
+  }
+}
 
 /* ---------------------------------angebote------------------ */
 
