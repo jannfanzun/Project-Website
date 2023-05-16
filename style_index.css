@@ -18,6 +18,10 @@ section.wrapper {
   width: 100%;
 }
 
+iframe {
+  width: 100%;
+  aspect-ratio: 16/9;
+}
 
 /* ==== CONTAINER ==== */
 .container {
@@ -311,7 +315,67 @@ section.wrapper {
   }
 }   
 
+/* ----------------video----------------------- */
 
+
+#advertisement {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 10px;
+  margin-bottom: 10%;
+  box-shadow: 0px 15px 25px var(--shadow-color), 0px -15px 25px var(--shadow-color);
+
+
+}
+
+@media(max-width:1000px){
+  #advertisement {
+    margin-top: -40% !important;
+  }
+}
+
+@media(max-width:900px){
+
+  #advertisement{
+    margin-top: 2%!important;
+  }
+}
+
+@media(max-width:800px){
+  #advertisement{
+    margin-top: 0% !important;
+  }
+}
+
+@media(max-width:550px){
+
+  #advertisement{
+      margin-top: 70%!important;
+  }
+}
+
+@media(max-width:400px){
+
+  #advertisement{
+    margin-top: 80% !important;
+  }
+}
+
+@media(max-width:380px){
+
+  #advertisement{
+      margin-top: 120%!important;
+  }
+}
+
+@media(max-width:350px){
+
+  #advertisement{
+      margin-top: 180%!important;
+  }
+}
 
 /* ---------------------------------angebote------------------ */
 
@@ -438,9 +502,6 @@ a {
 }
 
 @media(max-width:1250px) {
-  .blog-box{
-  width: 300px;
-  }
   .blog-container{
     margin-bottom: -190%;
   }
@@ -454,7 +515,7 @@ a {
     margin-bottom: -150%;
   }
   #blog {
-    margin-top: 30%;
+    margin-top: 20%;
   }
 }
 
@@ -463,7 +524,7 @@ a {
       width: 70%;
   }
   #blog{
-    margin-top: 30%;
+    margin-top: 20%;
   }
 }
 
@@ -472,7 +533,7 @@ a {
       width: 70%;
   }
   #blog{
-    margin-top: 50%;
+    margin-top: 20%;
   }
 }
 
@@ -486,23 +547,18 @@ a {
   }
 
   #blog{
-      margin-top: 80%;
+      margin-top: 40%;
   }
 }
 
 @media(max-width:400px){
 
   #blog{
-      margin-top: 110%;
+      margin-top: 50%;
   }
 }
 
-@media(max-width:330px){
 
-  #blog{
-      margin-top: 130%;
-  }
-}
 
 /* ---------newsletter--------- */
 
