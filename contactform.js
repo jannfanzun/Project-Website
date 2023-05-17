@@ -16,13 +16,13 @@ form.addEventListener("submit", (event) => {
       // show success message
       alertElement.classList.remove("hidden");
       success_message.classList.remove("hidden");
-      success_message.innerText = "Deine Nachricht wurde erfolgreich gesendet!";
+      alertElement.innerText = "Deine Nachricht wurde erfolgreich gesendet!";
       // reset the form
       form.reset();
     })
     .catch((error) => {
       alertElement.classList.remove("hidden");
-      success_message.innerText =
+    alertElement.innerText =
         "Hoppla, da ist etwas schiefgelaufen, bitte versuche es erneut.";
     });
 });
