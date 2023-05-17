@@ -37,17 +37,14 @@
 
 body {
   margin: 0px;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 400;
-    
-  background-image: radial-gradient(circle at top right,var(--alternative-color) 28%, var(--primary-color) 28%),
-                    radial-gradient(circle at bottom left,var(--alternative-color) 15%, var(--primary-color) 15%);
-  background-size: 100% 66%;
-  background-position: top right, bottom left;
-  background-repeat: no-repeat;
-  background-attachment: fixed; 
-}
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
 
+  background-image: radial-gradient(circle at top right, var(--alternative-color) 28%, var(--primary-color) 28%),
+                    radial-gradient(circle at bottom left, var(--alternative-color) 15%, var(--primary-color) 15%);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
 
 #icon {
   width: 25px;
@@ -58,4 +55,60 @@ body {
 #icon:hover {
   transform: translateX(3px);
   filter: invert(1);
+}
+
+/* Hintergrundbild für Pixelbreite 1100 */
+@media (max-width: 1100px) {
+  body {
+    background-size: 100% 66%;
+    background-position: top right, bottom left;
+  }
+}
+
+/* Hintergrundbild für Pixelbreite 900 */
+@media (max-width: 900px) {
+  body {
+    background-size: 100% 66%;
+    background-position: top right, bottom left;
+  }
+}
+
+/* Hintergrundbild für Pixelbreite 750 */
+@media (max-width: 750px) {
+  body {
+    background-size: 100% 66%;
+    background-position: top right, bottom left;
+  }
+}
+
+/* Hintergrundbild für Pixelbreite 500 */
+@media (max-width: 500px) {
+  body {
+    background-size: 100% 66%;
+    background-position: top right, bottom left;
+  }
+}
+
+/* Hintergrundbild für Pixelbreite 400 */
+@media (max-width: 400px) {
+  body {
+    background-size: 100% 66%;
+    background-position: top right, bottom left;
+  }
+}
+
+/* Hintergrundbild für Pixelbreite 350 */
+@media (max-width: 350px) {
+  body {
+    background-size: 100% 100%, 100% 100%;
+    background-position: top right, bottom left;
+  }
+}
+
+/* Hintergrundbild für Pixelbreite 300 */
+@media (max-width: 300px) {
+  body {
+    background-size: 100% 100%, 100% 100%;
+    background-position: top right, bottom left;
+  }
 }
