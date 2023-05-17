@@ -13,12 +13,16 @@ newsletterform.addEventListener("submit", (event) => {
     },
   })
     .then((response) => {
-      // show success message
-      newsletterAlertElement.classList.remove("hidden");
-      newsletterSuccessMessage.classList.remove("hidden");
-      newsletterSuccessMessage.innerText = "Deine Nachricht wurde erfolgreich gesendet!";
-      // reset the form
-      newsletterform.reset();
+      if (response.ok) {
+        // show success message
+        newsletterAlertElement.classList.remove("hidden");
+        newsletterSuccessMessage.classList.remove("hidden");
+        newsletterSuccessMessage.innerText = "Anmeldung erfolgreich!";
+        // reset the form
+        newsletterform.reset();
+      } else {
+        throw new Error("Network response was not ok.");
+      }
     })
     .catch((error) => {
       newsletterAlertElement.classList.remove("hidden");
