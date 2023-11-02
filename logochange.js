@@ -3,9 +3,9 @@ const logoIcon = document.getElementById("mdc-logo");
 if (localStorage.getItem("theme")) {
     const theme = localStorage.getItem("theme");
     if (theme === "light") {
-      logoIcon.src = "images/blackmode-logo.png.png";
+      logoIcon.src = "images/mdclogo.svg";
     } else if (theme === "dark") {
-      logoIcon.src = "images/whitemode-logo.png.png";
+      logoIcon.src = "images/mdclogowhite.svg";
     }
   }
   
@@ -14,8 +14,8 @@ if (localStorage.getItem("theme")) {
   
     if (theme === "dark") {
       
-      logoIcon.src = "images/whitemode-logo.png.png";
+      logoIcon.src = "images/mdclogowhite.svg";
     } else {
-        logoIcon.src = "images/blackmode-logo.png.png";
+        logoIcon.src = "images/mdclogo.svg";
     }
   });   
