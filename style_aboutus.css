@@ -73,6 +73,7 @@
     height: 100%;
     padding: 5px;
     border-radius: 50%;
+    object-fit: cover;
 
   }
   .team .team_member, .dark{
