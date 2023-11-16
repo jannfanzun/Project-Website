@@ -1,3 +1,21 @@
+
+::-webkit-scrollbar {
+  width: 10px;
+  background-color: transparent; 
+}
+
+::-webkit-scrollbar-corner {
+  background-color: transparent; 
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--span-color); 
+  border-radius: 6px;
+}
+
+
+
+
 :root, .light{
   --primary-color: #ffffff;
   --alternative-color: rgb(186, 186, 186);
